@@ -1,0 +1,79 @@
+Список повторяющихся id среди автомобилей:
+3gcrkse37ag2346201g1al58f7871592411gndt13s6322674451gnevhkw8jj148388
+Марки авто, отсортированные по цене:| peterbilt       | 400        |
+| jaguar          | 2800       |
+| heartland       | 2966       |
+| nissan          | 3637       |
+| hyundai         | 5203       |
+| honda           | 6127       |
+| toyota          | 6300       |
+| acura           | 7266       |
+| mazda           | 8000       |
+| gmc             | 10657      |
+| jeep            | 10933      |
+| ram             | 11050      |
+| kia             | 11123      |
+| infiniti        | 13098      |
+| chrysler        | 13686      |
+| audi            | 13981      |
+| ford            | 14896      |
+| dodge           | 17295      |
+| lincoln         | 18150      |
+| chevrolet       | 18669      |
+| buick           | 19715      |
+| cadillac        | 24941      |
+| bmw             | 26397      |
+| mercedes-benz   | 28704      |
+| land            | 28900      |
+| maserati        | 30300      |
+| lexus           | 33220      |
+| harley-davidson | 54680      |
+
+
+Таблица с марками авто и их макс ценой, мин ценой и т.д.:
+| Марка           | Средння цена    | Максимальная    | Минимальная     |
+| peterbilt       | 400             | 1025            | 0               |
+| jaguar          | 2800            | 2800            | 2800            |
+| heartland       | 2966            | 6680            | 0               |
+| nissan          | 3637            | 8350            | 2630            |
+| hyundai         | 5203            | 9800            | 3250            |
+| honda           | 6127            | 17200           | 0               |
+| toyota          | 6300            | 6300            | 6300            |
+| acura           | 7266            | 16900           | 1000            |
+| mazda           | 8000            | 16000           | 0               |
+| gmc             | 10657           | 48500           | 0               |
+| jeep            | 10933           | 21100           | 25              |
+| ram             | 11050           | 11050           | 11050           |
+| kia             | 11123           | 21500           | 0               |
+| infiniti        | 13098           | 18500           | 10050           |
+| chrysler        | 13686           | 29100           | 25              |
+| audi            | 13981           | 36400           | 0               |
+| ford            | 14896           | 58500           | 0               |
+| dodge           | 17295           | 67000           | 0               |
+| lincoln         | 18150           | 36300           | 0               |
+| chevrolet       | 18669           | 63200           | 0               |
+| buick           | 19715           | 37500           | 0               |
+| cadillac        | 24941           | 47500           | 0               |
+| bmw             | 26397           | 61200           | 0               |
+| mercedes-benz   | 28704           | 84900           | 10740           |
+| land            | 28900           | 46900           | 22500           |
+| maserati        | 30300           | 30300           | 30300           |
+| lexus           | 33220           | 55600           | 10840           |
+| harley-davidson | 54680           | 54680           | 54680           |
+
+| Марка                | ID   | Год   | Цвет       | Состояние            | Цена       | Пробег     |
+| bmw                  | 375  | 2013  | white      | salvage insurance    | 2925       | 46060,000000 |
+| bmw                  | 234  | 2011  | gray       | clean vehicle        | 6200       | 80394,000000 |
+| bmw                  | 401  | 2014  | blue       | clean vehicle        | 13500      | 33542,000000 |
+| bmw                  | 467  | 2014  | silver     | clean vehicle        | 15000      | 44730,000000 |
+| bmw                  | 627  | 2017  | black      | clean vehicle        | 19700      | 61428,000000 |
+| bmw                  | 92   | 2017  | gray       | clean vehicle        | 24500      | 17626,000000 |
+| bmw                  | 72   | 2017  | black      | clean vehicle        | 29400      | 23765,000000 |
+| bmw                  | 597  | 2016  | no_color   | clean vehicle        | 29700      | 24293,000000 |
+| bmw                  | 615  | 2017  | blue       | clean vehicle        | 33500      | 22115,000000 |
+| bmw                  | 162  | 2016  | blue       | clean vehicle        | 39000      | 39917,000000 |
+| bmw                  | 171  | 2016  | black      | clean vehicle        | 39000      | 33110,000000 |
+| bmw                  | 412  | 2017  | blue       | clean vehicle        | 39800      | 23177,000000 |
+| bmw                  | 165  | 2016  | gray       | clean vehicle        | 40000      | 31727,000000 |
+| bmw                  | 95   | 2017  | blue       | clean vehicle        | 53500      | 29355,000000 |
+| bmw                  | 399  | 2020  | black      | clean vehicle        | 61200      | 7509,000000 |
