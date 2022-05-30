@@ -10,9 +10,11 @@ public class Color {
     }
 
     public void addMark(String mark){
-        if(marks.containsKey(mark)){
-
+        if(marks.get(mark) != null){
+            marks.put(mark, marks.get(mark)+1);
         }
+        else
+            marks.put(mark, 1);
     }
 
     @Override

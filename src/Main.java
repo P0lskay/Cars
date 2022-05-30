@@ -23,6 +23,8 @@ public class Main {
         Map<Integer, String> id_quality = new HashMap<Integer, String>();
 
         ArrayList<Color> colors = new ArrayList<Color>();
+        ArrayList<Car> cars = new ArrayList<Car>();
+        ArrayList<Mark> marks = new ArrayList<Mark>();
 
         Map<String, Map<String, Integer>> color_mark_result = new HashMap<String, Map<String, Integer>>();
 
@@ -55,16 +57,10 @@ public class Main {
                     //Читаем марку авто
                     if(sc.hasNext()){
                         mark = sc.nextLine();
-                        if(!sum_price_mark.containsKey(mark)){
-                            sum_price_mark.put(mark, price);
-                            min_price_mark.put(mark, price);
-                            max_price_mark.put(mark, price);
-                            counter_car_mark.put(mark, 1);
+                        if(marks.contains(new Mark(mark, price))){
+                            marks.get(marks.indexOf(new Mark(mark, price))).addOne(price);
                         }else{
-                            sum_price_mark.put(mark, sum_price_mark.get(mark) + price);
-                            min_price_mark.put(mark, price < min_price_mark.get(mark) ? price : min_price_mark.get(mark));
-                            max_price_mark.put(mark, price > max_price_mark.get(mark) ? price : max_price_mark.get(mark));
-                            counter_car_mark.put(mark, counter_car_mark.get(mark)+1);
+                            marks.add(new Mark(mark, price));
                         }
                         avg_price_mark.put(mark, sum_price_mark.get(mark)/counter_car_mark.get(mark));
                     }
