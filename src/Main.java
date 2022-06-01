@@ -8,43 +8,26 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Map<String, Integer> sum_price_mark = new HashMap<String, Integer>();
-        Map<String, Integer> min_price_mark = new HashMap<String, Integer>();
-        Map<String, Integer> max_price_mark = new HashMap<String, Integer>();
-        Map<String, Integer> avg_price_mark = new HashMap<String, Integer>();
-        Map<String, Integer> counter_car_mark = new HashMap<String, Integer>();
-
-
-        Map<Integer, Integer> id_price = new HashMap<Integer, Integer>();
-        Map<Integer, String> id_mark = new HashMap<Integer, String>();
-        Map<Integer, String> id_color = new HashMap<Integer, String>();
-        Map<Integer, Integer> id_year = new HashMap<Integer, Integer>();
-        Map<Integer, Double> id_miles = new HashMap<Integer, Double>();
-        Map<Integer, String> id_quality = new HashMap<Integer, String>();
-
         ArrayList<Color> colors = new ArrayList<Color>();
         ArrayList<Car> cars = new ArrayList<Car>();
         ArrayList<Mark> marks = new ArrayList<Mark>();
 
-        Map<String, Map<String, Integer>> color_mark_result = new HashMap<String, Map<String, Integer>>();
-
-
-        Set<String> all_car_number = new HashSet<String>();
         Set<String> repeat_car_number = new HashSet<String>();
 
 
         Set<Integer> set_years = new TreeSet<Integer>();
 
+
+        //БЛОК №1 - считывание и сохранение информации
         try{
             Scanner sc = new Scanner(new File("data_auto.txt"));
             sc.useLocale(Locale.ENGLISH);
-            String str;
             while (sc.hasNext()) {
                 int price = 0;
                 int year = 0;
                 int id = 0;
                 double miles = 0;
-                String color, quality, id_num, mark;
+                String color = "", quality = "", idNum = "", mark = "", model = "", id_party = "";
                 //Читаем индекс авто
                 if(sc.hasNextInt())
                     id = Integer.parseInt(sc.nextLine());
@@ -62,18 +45,18 @@ public class Main {
                         }else{
                             marks.add(new Mark(mark, price));
                         }
-                        avg_price_mark.put(mark, sum_price_mark.get(mark)/counter_car_mark.get(mark));
                     }
                     else break;
 
                     //Читаем модель авто
-                    if(sc.hasNext()) str = sc.nextLine();
+                    if(sc.hasNext())
+                        model = sc.nextLine();
                     else break;
 
                     //Читаем год авто
                     if (sc.hasNextInt())
                         year = Integer.parseInt(sc.nextLine());
-                    else throw new IOException();
+                    else break;
 
                     set_years.add(year);
 
@@ -81,12 +64,12 @@ public class Main {
                     //Читаем состояние авто
                     if(sc.hasNext())
                         quality = sc.nextLine();
-                    else throw new IOException();
+                    else break;
 
                     //Читаем пробег авто
                     if(sc.hasNextDouble())
                         miles = Double.parseDouble(sc.nextLine());
-                    else throw new IOException();
+                    else break;
 
                     //Читаем цвет авто
                     if(sc.hasNext()) {
@@ -95,40 +78,31 @@ public class Main {
                             colors.add(new Color(color));
                         colors.get(colors.indexOf(new Color(color))).addMark(mark);
                     }
-                    else throw new IOException();
+                    else break;
 
-                    //Добавляем идентификационны номер машины
-                    if(sc.hasNext()) {
-                        id_num = sc.nextLine();
-                        if(!all_car_number.add(id_num))
-                            repeat_car_number.add(id_num);
-                    }
-                    else throw new IOException();
-
-
-//                    miles_car.put(year, miles_car.get(year)+miles);
-
-                    id_price.put(id, price);
-                    id_color.put(id, color);
-                    id_mark.put(id, mark);
-                    id_miles.put(id, miles);
-                    id_quality.put(id, quality);
-                    id_year.put(id, year);
-
+                    Car car = new Car(mark, model, color, quality, idNum, price, miles);
+                    //Если машина с таким же id уже добавлена, значит этот id повторяется и его нужно вывести
+                    if(cars.contains(car))
+                        repeat_car_number.add(idNum);
+                    cars.add(car);
 
                 }
                 else throw new IOException();
                 //Читаем партию авто
-                if(sc.hasNext()) str = sc.nextLine();
+                if(sc.hasNext()) id_party = sc.nextLine();
                 else break;
             }
             sc.close();
         }catch (IOException e) {
-            System.out.println("file error");
+            System.out.println("file input error");
         }
+
+        //БЛОК №2 - обработка и вывод информации
         try {
             FileWriter writer = new FileWriter("output.txt", false);
 
+
+            //Задание №1 - вывод повторяющихся id авто
             if(repeat_car_number.size() == 0) {
                 System.out.println("Повторяющиеся id автомобилей не найдены!");
                 writer.write("Повторяющиеся id автомобилей не найдены!\n");
