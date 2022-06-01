@@ -2,11 +2,20 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class Color {
+
     private String color_name;
     private HashMap<String, Integer> marks = new HashMap<String, Integer>();
 
     public Color(String color){
         color_name = color;
+    }
+
+    public String getColor_name() {
+        return color_name;
+    }
+
+    public HashMap<String, Integer> getMarks() {
+        return marks;
     }
 
     public void addMark(String mark){

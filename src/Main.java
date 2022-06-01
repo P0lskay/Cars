@@ -116,39 +116,29 @@ public class Main {
                 }
             }
 
-            System.out.println("\nМарки авто, отсортированные по цене:");
-            writer.write("\nМарки авто, отсортированные по цене:");
-            Map<String, Integer> sorted_avg_price_mark = avg_price_mark.entrySet().stream()
-                    .sorted(Comparator.comparingInt(e -> e.getValue()))
-                    .collect(Collectors.toMap(
-                            Map.Entry::getKey,
-                            Map.Entry::getValue,
-                            (a, b) -> { throw new AssertionError(); },
-                            LinkedHashMap::new
-                    ));
-            String leftAlignFormat = "| %-15s | %-10d |%n";
-            for (Map.Entry<String, Integer> entry : sorted_avg_price_mark.entrySet()) {
-                System.out.format(leftAlignFormat, entry.getKey(), entry.getValue());
-                writer.write(String.format(leftAlignFormat, entry.getKey(), entry.getValue()));
-            }
 
 
+
+            //Задание №2 - вывод гистограмм для каждого цвета
             System.out.println("\nГистограммы всех цветов встречащихся авто:");
-            for (Map.Entry<String, Map<String, Integer>> entry : color_mark_result.entrySet()) {
-                System.out.println("Цвет: "+ entry.getKey() +":");
-                leftAlignFormat = "|%-12s";
-                int max = 0;
-                for(Map.Entry<String, Integer> entry2: entry.getValue().entrySet())
+            for (Color color : colors) {
+                System.out.println("Цвет: "+ color.getColor_name() +":");
+                String leftAlignFormat = "|%-12s";
+                //Находим будущий самый высокий столбец на гистограмме для корректного отображения
+                int maxColumnSize = 0;
+                for(int count: color.getMarks().values())
                 {
-                    if(entry2.getValue() > max)
-                        max = entry2.getValue();
+                    if(count > maxColumnSize)
+                        maxColumnSize = count;
                 }
-                for(int i = max; i > 0; i--)
+
+                //Теперь построчно выводим гистограмму на консоль
+                for(int i = maxColumnSize; i > 0; i--)
                 {
                     System.out.format("%-2d", i);
-                    for(Map.Entry<String, Integer> entry2: entry.getValue().entrySet())
+                    for(int count: color.getMarks().values())
                     {
-                        if (entry2.getValue() >= i){
+                        if (count >= i){
                             System.out.format(leftAlignFormat, "#");
                         }else{
                             System.out.format(leftAlignFormat, " ");
@@ -156,16 +146,26 @@ public class Main {
                     }
                     System.out.format("\n");
                 }
-                for(Map.Entry<String, Integer> entry2: entry.getValue().entrySet())
+                for(int count: color.getMarks().values())
                 {
                     System.out.format("_____________");
                 }
                 System.out.format("\n  ");
-                for(Map.Entry<String, Integer> entry2: entry.getValue().entrySet())
+                for(Map.Entry<String, Integer> entry: color.getMarks().entrySet())
                 {
-                    System.out.format(leftAlignFormat, entry2.getKey());
+                    System.out.format(leftAlignFormat, entry.getKey());
                 }
                 System.out.format("\n\n");
+            }
+
+            //Задание №3 - вывод марок авто отсортированных по средней цене
+            System.out.println("\nМарки авто, отсортированные по цене:");
+            writer.write("\nМарки авто, отсортированные по цене:");
+            Collections.sort(marks, Mark.MARK_COMPARATOR);
+            String leftAlignFormat = "| %-15s | %-10d |%n";
+            for (Mark m : marks) {
+                System.out.format(leftAlignFormat, m.getMark(), m.getAvg());
+                writer.write(String.format(leftAlignFormat, m.getMark(), m.getAvg()));
             }
 
 
