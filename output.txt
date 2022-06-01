@@ -1,79 +1,1127 @@
 Список повторяющихся id среди автомобилей:
-3gcrkse37ag2346201g1al58f7871592411gndt13s6322674451gnevhkw8jj148388
-Марки авто, отсортированные по цене:| peterbilt       | 400        |
+3gcrkse37ag234620
+1g1al58f787159241
+1gndt13s632267445
+1gnevhkw8jj148388
+
+Марки авто, отсортированные по цене:| ford            | 0          |
+| dodge           | 0          |
+| chevrolet       | 0          |
+| gmc             | 0          |
+| chrysler        | 0          |
+| kia             | 0          |
+| buick           | 0          |
+| infiniti        | 0          |
+| mercedes-benz   | 0          |
+| jeep            | 0          |
+| bmw             | 0          |
+| cadillac        | 0          |
+| hyundai         | 0          |
+| honda           | 0          |
+| heartland       | 0          |
+| acura           | 0          |
+| audi            | 0          |
+| lincoln         | 0          |
+| lexus           | 0          |
+| nissan          | 0          |
+| land            | 0          |
+| peterbilt       | 0          |
+| mazda           | 1          |
 | jaguar          | 2800       |
-| heartland       | 2966       |
-| nissan          | 3637       |
-| hyundai         | 5203       |
-| honda           | 6127       |
 | toyota          | 6300       |
-| acura           | 7266       |
-| mazda           | 8000       |
-| gmc             | 10657      |
-| jeep            | 10933      |
 | ram             | 11050      |
-| kia             | 11123      |
-| infiniti        | 13098      |
-| chrysler        | 13686      |
-| audi            | 13981      |
-| ford            | 14896      |
-| dodge           | 17295      |
-| lincoln         | 18150      |
-| chevrolet       | 18669      |
-| buick           | 19715      |
-| cadillac        | 24941      |
-| bmw             | 26397      |
-| mercedes-benz   | 28704      |
-| land            | 28900      |
 | maserati        | 30300      |
-| lexus           | 33220      |
 | harley-davidson | 54680      |
 
 
 Таблица с марками авто и их макс ценой, мин ценой и т.д.:
 | Марка           | Средння цена    | Максимальная    | Минимальная     |
-| peterbilt       | 400             | 1025            | 0               |
+| ford            | 0               | 58500           | 0               |
+| dodge           | 0               | 67000           | 0               |
+| chevrolet       | 0               | 63200           | 0               |
+| gmc             | 0               | 48500           | 0               |
+| chrysler        | 0               | 29100           | 25              |
+| kia             | 0               | 21500           | 0               |
+| buick           | 0               | 37500           | 0               |
+| infiniti        | 0               | 18500           | 10050           |
+| mercedes-benz   | 0               | 84900           | 10740           |
+| jeep            | 0               | 21100           | 25              |
+| bmw             | 0               | 61200           | 0               |
+| cadillac        | 0               | 47500           | 0               |
+| hyundai         | 0               | 9800            | 3250            |
+| honda           | 0               | 17200           | 0               |
+| heartland       | 0               | 6680            | 0               |
+| acura           | 0               | 16900           | 1000            |
+| audi            | 0               | 36400           | 0               |
+| lincoln         | 0               | 36300           | 0               |
+| lexus           | 0               | 55600           | 10840           |
+| nissan          | 0               | 8350            | 2630            |
+| land            | 0               | 46900           | 22500           |
+| peterbilt       | 0               | 1025            | 0               |
+| mazda           | 1               | 16000           | 0               |
 | jaguar          | 2800            | 2800            | 2800            |
-| heartland       | 2966            | 6680            | 0               |
-| nissan          | 3637            | 8350            | 2630            |
-| hyundai         | 5203            | 9800            | 3250            |
-| honda           | 6127            | 17200           | 0               |
 | toyota          | 6300            | 6300            | 6300            |
-| acura           | 7266            | 16900           | 1000            |
-| mazda           | 8000            | 16000           | 0               |
-| gmc             | 10657           | 48500           | 0               |
-| jeep            | 10933           | 21100           | 25              |
 | ram             | 11050           | 11050           | 11050           |
-| kia             | 11123           | 21500           | 0               |
-| infiniti        | 13098           | 18500           | 10050           |
-| chrysler        | 13686           | 29100           | 25              |
-| audi            | 13981           | 36400           | 0               |
-| ford            | 14896           | 58500           | 0               |
-| dodge           | 17295           | 67000           | 0               |
-| lincoln         | 18150           | 36300           | 0               |
-| chevrolet       | 18669           | 63200           | 0               |
-| buick           | 19715           | 37500           | 0               |
-| cadillac        | 24941           | 47500           | 0               |
-| bmw             | 26397           | 61200           | 0               |
-| mercedes-benz   | 28704           | 84900           | 10740           |
-| land            | 28900           | 46900           | 22500           |
 | maserati        | 30300           | 30300           | 30300           |
-| lexus           | 33220           | 55600           | 10840           |
 | harley-davidson | 54680           | 54680           | 54680           |
 
-| Марка                | ID   | Год   | Цвет       | Состояние            | Цена       | Пробег     |
-| bmw                  | 375  | 2013  | white      | salvage insurance    | 2925       | 46060,000000 |
-| bmw                  | 234  | 2011  | gray       | clean vehicle        | 6200       | 80394,000000 |
-| bmw                  | 401  | 2014  | blue       | clean vehicle        | 13500      | 33542,000000 |
-| bmw                  | 467  | 2014  | silver     | clean vehicle        | 15000      | 44730,000000 |
-| bmw                  | 627  | 2017  | black      | clean vehicle        | 19700      | 61428,000000 |
-| bmw                  | 92   | 2017  | gray       | clean vehicle        | 24500      | 17626,000000 |
-| bmw                  | 72   | 2017  | black      | clean vehicle        | 29400      | 23765,000000 |
-| bmw                  | 597  | 2016  | no_color   | clean vehicle        | 29700      | 24293,000000 |
-| bmw                  | 615  | 2017  | blue       | clean vehicle        | 33500      | 22115,000000 |
-| bmw                  | 162  | 2016  | blue       | clean vehicle        | 39000      | 39917,000000 |
-| bmw                  | 171  | 2016  | black      | clean vehicle        | 39000      | 33110,000000 |
-| bmw                  | 412  | 2017  | blue       | clean vehicle        | 39800      | 23177,000000 |
-| bmw                  | 165  | 2016  | gray       | clean vehicle        | 40000      | 31727,000000 |
-| bmw                  | 95   | 2017  | blue       | clean vehicle        | 53500      | 29355,000000 |
-| bmw                  | 399  | 2020  | black      | clean vehicle        | 61200      | 7509,000000 |
+| Марка                | ID             | Год   | Цвет                 | Состояние            | Цена       | Пробег     |
+| peterbilt            | 1xp7d49x0ad793710 | 2010  | color:               | color:               | 1025       | 1017936,000000 |
+| peterbilt            | 1xp7d49x09d784257 | 2009  | blue                 | blue                 | 0          | 982486,000000 |
+| peterbilt            | 1xp4d49x9cd123630 | 2012  | gold                 | gold                 | 475        | 902041,000000 |
+| chevrolet            | 1gcgc24u53z128586 | 2003  | red                  | red                  | 2000       | 507985,000000 |
+| chevrolet            | 1gchk23648f125262 | 2008  | silver               | silver               | 7320       | 325611,000000 |
+| ford                 | 1fduf5gt8bea80212 | 2011  | white                | white                | 15700      | 309564,000000 |
+| chevrolet            | 1gcjc33204f177273 | 2004  | black                | black                | 2725       | 308451,000000 |
+| ford                 | 1ftzx0766wka18481 | 1998  | brown                | brown                | 25         | 300021,000000 |
+| ford                 | 1falp62w5th144314 | 1996  | green                | green                | 0          | 296860,000000 |
+| ford                 | 1ftrw08l61kc05834 | 2001  | gold                 | gold                 | 75         | 295780,000000 |
+| chevrolet            | 2gcec19h8s1195266 | 1995  | green                | green                | 0          | 274706,000000 |
+| toyota               | jtezu11f88k007763 | 2008  | black                | black                | 6300       | 274117,000000 |
+| chevrolet            | 1g1al18f187245041 | 2008  | yellow               | yellow               | 0          | 270080,000000 |
+| chevrolet            | 1g1zt53f46f254868 | 2006  | silver               | silver               | 0          | 268040,000000 |
+| chevrolet            | 3gnfk12387g179905 | 2007  | black                | black                | 25         | 267834,000000 |
+| chevrolet            | 1gbhg396191112177 | 2009  | white                | white                | 3800       | 261648,000000 |
+| chevrolet            | 1gccs1445wk226994 | 1998  | gray                 | gray                 | 0          | 258631,000000 |
+| ford                 | 1ftef15n0tlc14455 | 1996  | red                  | red                  | 0          | 252588,000000 |
+| ford                 | 1fafp55u03a242094 | 2003  | gold                 | gold                 | 0          | 246065,000000 |
+| ford                 | 1ftpw14v66fa82105 | 2006  | brown                | brown                | 4600       | 240740,000000 |
+| dodge                | 1c3cdzcb5dn552741 | 2013  | gray                 | gray                 | 1300       | 239822,000000 |
+| ford                 | 1fmfu16lx4la45470 | 2004  | gray                 | gray                 | 350        | 236980,000000 |
+| gmc                  | 1gket16s646227597 | 2004  | gold                 | gold                 | 0          | 235348,000000 |
+| chrysler             | 2c3hd46r3yh208325 | 2000  | red                  | red                  | 175        | 231240,000000 |
+| ford                 | 1ftrx17w41nb80705 | 2001  | red                  | red                  | 950        | 229886,000000 |
+| jeep                 | 1j4gw58s4xc558310 | 1999  | black                | black                | 25         | 226972,000000 |
+| ford                 | 1fdxf46p35ea79064 | 2005  | no_color             | no_color             | 4700       | 225236,000000 |
+| dodge                | 3d7ks28c15g771945 | 2005  | gray                 | gray                 | 8600       | 219823,000000 |
+| honda                | 5fnyf4h99ab034386 | 2010  | no_color             | no_color             | 6940       | 217290,000000 |
+| bmw                  | wbaam3346yfp77118 | 2000  | gray                 | gray                 | 0          | 216657,000000 |
+| ford                 | 3fafp37372r151014 | 2002  | black                | black                | 0          | 214800,000000 |
+| ford                 | nm0ls7e79h1312701 | 2017  | white                | white                | 4410       | 209915,000000 |
+| ford                 | 1ftdf15y2rnb12612 | 1994  | white                | white                | 25         | 206162,000000 |
+| ford                 | 1fdfe4fs7eda23699 | 2014  | beige                | beige                | 6700       | 204155,000000 |
+| ford                 | 1fmdu35p7vub38059 | 1997  | green                | green                | 0          | 203297,000000 |
+| ford                 | 1fmzk04136ga07119 | 2006  | red                  | red                  | 0          | 203158,000000 |
+| ford                 | 1fmeu7de5aua53694 | 2010  | gray                 | gray                 | 25         | 198596,000000 |
+| ford                 | 1ftew1cm0bfc14625 | 2011  | white                | white                | 5800       | 195908,000000 |
+| chevrolet            | 3gnfk16307g310044 | 2007  | gray                 | gray                 | 25         | 194903,000000 |
+| chevrolet            | 1gndt13s632267445 | 2003  | gray                 | gray                 | 0          | 194673,000000 |
+| chevrolet            | 1gndt13s632267445 | 2003  | gray                 | gray                 | 0          | 194673,000000 |
+| ford                 | 1ftne2ew6bda76057 | 2011  | white                | white                | 2900       | 190994,000000 |
+| ford                 | 2fmdk3gc4bbb02217 | 2011  | silver               | silver               | 2899       | 190552,000000 |
+| ford                 | 2fmda5143wba16791 | 1998  | blue                 | blue                 | 0          | 186855,000000 |
+| ford                 | 1fmcu4k37akb80224 | 2010  | white                | white                | 3870       | 185983,000000 |
+| dodge                | 1b7hg38n62s587845 | 2002  | black                | black                | 1400       | 185460,000000 |
+| dodge                | 3c4pddbg6dt605945 | 2013  | gray                 | gray                 | 2200       | 184905,000000 |
+| ford                 | 1fahp35n09w109143 | 2009  | black                | black                | 0          | 184889,000000 |
+| audi                 | waudg74f05n113751 | 2005  | black                | black                | 0          | 181896,000000 |
+| ford                 | 1ftyr10d19pa60391 | 2009  | blue                 | blue                 | 0          | 180364,000000 |
+| acura                | 19uua96529a004646 | 2009  | black                | black                | 3900       | 179389,000000 |
+| ford                 | 1ftss3el7eda50076 | 2014  | white                | white                | 5700       | 178703,000000 |
+| dodge                | 2d8hn44h88r669549 | 2008  | orange               | orange               | 0          | 177948,000000 |
+| audi                 | wa1by74l38d010163 | 2008  | black                | black                | 25         | 177422,000000 |
+| chevrolet            | 3gcuksej4eg356687 | 2014  | white                | white                | 12800      | 177322,000000 |
+| ford                 | 1ftnx20p73ed69682 | 2003  | white                | white                | 7000       | 176567,000000 |
+| chevrolet            | 1gc3czcg1ef176545 | 2014  | white                | white                | 10200      | 173469,000000 |
+| chevrolet            | 1gchk23204f232462 | 2004  | gray                 | gray                 | 5100       | 173321,000000 |
+| chevrolet            | 1g1al58f787159241 | 2008  | blue                 | blue                 | 50         | 172102,000000 |
+| chevrolet            | 1g1al58f787159241 | 2008  | blue                 | blue                 | 50         | 172102,000000 |
+| gmc                  | 1gkfk03219r252659 | 2009  | black                | black                | 1025       | 169634,000000 |
+| chevrolet            | 1gc4k0cgxdf194396 | 2013  | gray                 | gray                 | 10300      | 167600,000000 |
+| ford                 | 1fmfu18l84lb61201 | 2004  | red                  | red                  | 0          | 167011,000000 |
+| dodge                | 1c6rd7ht8cs279667 | 2012  | blue                 | blue                 | 8600       | 165836,000000 |
+| chevrolet            | 1gndu23l46d143789 | 2006  | white                | white                | 25         | 165327,000000 |
+| chrysler             | 2a8hr54px8r787529 | 2008  | red                  | red                  | 2960       | 164048,000000 |
+| dodge                | 2c4rdgbg8dr566594 | 2013  | red                  | red                  | 2500       | 163260,000000 |
+| honda                | jhmze2h34es000337 | 2014  | blue                 | blue                 | 3700       | 162824,000000 |
+| dodge                | 3d73y4clxbg535425 | 2011  | white                | white                | 18200      | 162281,000000 |
+| dodge                | 2b3ka43g87h836300 | 2007  | dark blue            | dark blue            | 25         | 160528,000000 |
+| chevrolet            | 2g1wb58kx81220813 | 2008  | gray                 | gray                 | 0          | 159266,000000 |
+| ford                 | 1ftfx1ev7akc32939 | 2010  | gray                 | gray                 | 25         | 155242,000000 |
+| ford                 | 3fahp06z07r118828 | 2007  | blue                 | blue                 | 75         | 154989,000000 |
+| honda                | 1hgcm56363a030975 | 2003  | white                | white                | 0          | 152608,000000 |
+| chrysler             | 2c3ja43r35h179032 | 2005  | silver               | silver               | 25         | 151815,000000 |
+| chevrolet            | 3gcpcpeh2eg231868 | 2014  | white                | white                | 9600       | 150525,000000 |
+| chevrolet            | 2cnbj13c316958216 | 2001  | red                  | red                  | 1200       | 149543,000000 |
+| dodge                | 3c4pdcdg6ct146745 | 2012  | gray                 | gray                 | 3000       | 149332,000000 |
+| chevrolet            | 3gcrkse37ag234620 | 2010  | white                | white                | 25         | 149189,000000 |
+| chevrolet            | 3gcrkse37ag234620 | 2010  | white                | white                | 25         | 149189,000000 |
+| chevrolet            | 1gcsksea1az121133 | 2010  | black                | black                | 7300       | 149050,000000 |
+| kia                  | knafg525787197602 | 2008  | silver               | silver               | 0          | 148463,000000 |
+| gmc                  | 1gt120c83bf236190 | 2011  | white                | white                | 8850       | 148035,000000 |
+| ford                 | 1ftdf18w8vna61251 | 1997  | green                | green                | 0          | 146912,000000 |
+| ford                 | 1fmcu03128kc80487 | 2008  | red                  | red                  | 0          | 145483,000000 |
+| gmc                  | 1gtr2uea3bz242502 | 2011  | white                | white                | 5100       | 144792,000000 |
+| dodge                | 2c3cdxbg3eh170784 | 2014  | gray                 | gray                 | 4200       | 144725,000000 |
+| dodge                | 1c6rd7ft6cs238912 | 2012  | gray                 | gray                 | 7500       | 144220,000000 |
+| ford                 | 1ftew1cf6ffc68843 | 2015  | black                | black                | 8850       | 143818,000000 |
+| hyundai              | 5npeb4ac2ch437716 | 2012  | white                | white                | 3460       | 142106,000000 |
+| ford                 | 1ftne24293hb19928 | 2003  | white                | white                | 900        | 142027,000000 |
+| gmc                  | 1gkkrpedxcj207971 | 2012  | black                | black                | 5000       | 140339,000000 |
+| chevrolet            | 1gb3czcg3df161404 | 2013  | white                | white                | 6700       | 139394,000000 |
+| chrysler             | 2c4rc1cg5hr616095 | 2017  | gray                 | gray                 | 5430       | 138650,000000 |
+| gmc                  | 1gkdt13s332100344 | 2003  | white                | white                | 25         | 138441,000000 |
+| buick                | 2g4wc582961163677 | 2006  | blue                 | blue                 | 0          | 137464,000000 |
+| chevrolet            | 2cnflnew5a6355858 | 2010  | red                  | red                  | 0          | 137422,000000 |
+| chevrolet            | 1gnet16s156132062 | 2005  | gray                 | gray                 | 1000       | 135675,000000 |
+| chevrolet            | 3gcpcreh4eg204053 | 2014  | red                  | red                  | 14000      | 135127,000000 |
+| ford                 | 1ftfw1ef1bfa03548 | 2011  | red                  | red                  | 17400      | 135077,000000 |
+| chevrolet            | 1g1jc5sh7c4114661 | 2012  | orange               | orange               | 0          | 134938,000000 |
+| ford                 | 1fdxf46r08ea18180 | 2008  | white                | white                | 8000       | 132379,000000 |
+| chevrolet            | 1gnkvjedxcj172991 | 2012  | no_color             | no_color             | 3300       | 131791,000000 |
+| ford                 | 1ftrf18l7wka62471 | 1998  | white                | white                | 0          | 131367,000000 |
+| ford                 | 1ftfw1et3cfb01665 | 2012  | gray                 | gray                 | 12800      | 131101,000000 |
+| chevrolet            | 1gnfc13j88r167278 | 2008  | white                | white                | 25         | 130623,000000 |
+| dodge                | 3c6jd6dtxcg183219 | 2012  | white                | white                | 5800       | 130120,000000 |
+| chevrolet            | 1gnkrgkd3ej285342 | 2014  | white                | white                | 8900       | 129068,000000 |
+| dodge                | 2c7wdgbg1er432307 | 2014  | white                | white                | 13750      | 128556,000000 |
+| ford                 | 1ft7w2b60geb96643 | 2016  | no_color             | no_color             | 17000      | 126802,000000 |
+| ford                 | 1ft7w2b60hec03964 | 2017  | white                | white                | 12990      | 126523,000000 |
+| jeep                 | 1j4ft48s01l590080 | 2001  | green                | green                | 200        | 126400,000000 |
+| chevrolet            | 1gnscckc9fr715640 | 2015  | white                | white                | 21200      | 125507,000000 |
+| ford                 | 1fafp34p7yw270338 | 2000  | black                | black                | 0          | 124969,000000 |
+| ford                 | 1fadp5au3fl108248 | 2015  | white                | white                | 3440       | 124542,000000 |
+| dodge                | 1c3cdzag7cn309641 | 2012  | white                | white                | 2300       | 123882,000000 |
+| dodge                | 1c3cdzab0en111068 | 2014  | silver               | silver               | 0          | 123660,000000 |
+| chevrolet            | 1g1al18f587145539 | 2008  | yellow               | yellow               | 450        | 123515,000000 |
+| ford                 | 1ftfw1et9efb99877 | 2014  | black                | black                | 20500      | 123355,000000 |
+| hyundai              | 5npdh4ae0eh480157 | 2014  | phantom black        | phantom black        | 5998       | 122975,000000 |
+| dodge                | 2c3cdxbg1eh268115 | 2014  | silver               | silver               | 6000       | 122837,000000 |
+| chevrolet            | 3gcukrec6eg373324 | 2014  | white                | white                | 14500      | 122018,000000 |
+| chevrolet            | 1g1jc6sh6d4127084 | 2013  | gray                 | gray                 | 3000       | 120667,000000 |
+| ford                 | 1ftfw1ef4hkc50286 | 2017  | white                | white                | 9300       | 120353,000000 |
+| chevrolet            | 1gcncpex7dz328593 | 2013  | white                | white                | 4500       | 119981,000000 |
+| gmc                  | 1gt120cg5bf167316 | 2011  | white                | white                | 5380       | 119215,000000 |
+| acura                | 5j8tb18578a010979 | 2008  | gray                 | gray                 | 1000       | 118250,000000 |
+| chevrolet            | 1gbhg31u661113654 | 2006  | white                | white                | 4200       | 118009,000000 |
+| mazda                | jm3er293590215768 | 2009  | gray                 | gray                 | 0          | 117541,000000 |
+| gmc                  | 2gkfluek6h6317310 | 2017  | blue                 | blue                 | 6300       | 117400,000000 |
+| dodge                | 2c3cdxbg9eh266032 | 2014  | blue                 | blue                 | 6000       | 117258,000000 |
+| chevrolet            | kl1td66e39b645208 | 2009  | black                | black                | 0          | 117059,000000 |
+| ford                 | 1fadp3k26el249167 | 2014  | silver               | silver               | 75         | 116535,000000 |
+| ford                 | 2fmdk3gc0bbb23680 | 2011  | black                | black                | 4480       | 116480,000000 |
+| ford                 | 3fahp0ha6ar187697 | 2010  | white                | white                | 250        | 115241,000000 |
+| chevrolet            | 2gnflfek5e6237636 | 2014  | silver               | silver               | 7200       | 114660,000000 |
+| chevrolet            | 3gntkge3xbg398052 | 2011  | black                | black                | 8430       | 114547,000000 |
+| chevrolet            | 1gc2kveg3hz159933 | 2017  | white                | white                | 18300      | 114344,000000 |
+| chrysler             | 1c3bc1fg1bn519076 | 2011  | gold                 | gold                 | 3450       | 114119,000000 |
+| ford                 | 3fa6p0g73hr140652 | 2017  | white                | white                | 3540       | 112893,000000 |
+| ford                 | 1fadp3f20el320177 | 2014  | white                | white                | 1700       | 112789,000000 |
+| chevrolet            | 1gcrcrea5dz179299 | 2013  | silver               | silver               | 10500      | 112267,000000 |
+| dodge                | 2b3ka43g67h630568 | 2007  | red                  | red                  | 2320       | 112182,000000 |
+| chevrolet            | 1gccsbf92c8121126 | 2012  | white                | white                | 3000       | 111856,000000 |
+| dodge                | 1d7ks28c96j246101 | 2006  | silver               | silver               | 14500      | 111782,000000 |
+| chevrolet            | 1gc2kveg1hz262672 | 2017  | white                | white                | 19000      | 111635,000000 |
+| dodge                | 3c4pddfg9dt523590 | 2013  | white                | white                | 5800       | 111628,000000 |
+| hyundai              | 5npdh4ae3fh644096 | 2015  | gray                 | gray                 | 3250       | 111612,000000 |
+| ford                 | 1ftfx1ef7gkd59790 | 2016  | gray                 | gray                 | 7560       | 111476,000000 |
+| mercedes-benz        | 8btpe7dd4ge127040 | 2016  | white                | white                | 16600      | 110907,000000 |
+| chevrolet            | 1g1ze5st0hf155999 | 2017  | brown                | brown                | 7600       | 110489,000000 |
+| ford                 | 1ftfw1ef5hkc50264 | 2017  | white                | white                | 9110       | 110316,000000 |
+| dodge                | 1b7hc16x01s213315 | 2001  | white                | white                | 5000       | 109360,000000 |
+| dodge                | 1c4rdjag0dc608666 | 2013  | black                | black                | 11100      | 109176,000000 |
+| honda                | 5fnrl5h96fb012419 | 2015  | gray                 | gray                 | 8160       | 109027,000000 |
+| jeep                 | 1c4njrfb0ed707552 | 2014  | white                | white                | 4150       | 108895,000000 |
+| chevrolet            | 1gnkrgkd8fj279098 | 2015  | gray                 | gray                 | 8000       | 107971,000000 |
+| dodge                | 1c4rdjdg4fc750792 | 2015  | white                | white                | 14500      | 107924,000000 |
+| dodge                | 2b3lj54t49h509675 | 2009  | orange               | orange               | 10400      | 107856,000000 |
+| dodge                | 2c3cdxhg4gh237287 | 2016  | blue                 | blue                 | 8400       | 107822,000000 |
+| dodge                | 2c3cdyag9dh607919 | 2013  | white                | white                | 4500       | 107768,000000 |
+| dodge                | 1c3cdfcb9dd329946 | 2013  | orange               | orange               | 3000       | 107593,000000 |
+| dodge                | 2c4rdgbg6dr505681 | 2013  | white                | white                | 4500       | 107224,000000 |
+| dodge                | 2c3cdyag3eh213138 | 2014  | black                | black                | 10295      | 105962,000000 |
+| ford                 | 1ftfw1efxdfa01008 | 2013  | silver               | silver               | 20800      | 105510,000000 |
+| chevrolet            | 2cnaldec6b6382868 | 2011  | black                | black                | 4310       | 105486,000000 |
+| chevrolet            | 1gccsbf97b8118236 | 2011  | white                | white                | 25         | 105244,000000 |
+| cadillac             | 1g6el12y9yu148063 | 2000  | white                | white                | 0          | 105169,000000 |
+| chevrolet            | 1gcwgaff8h1120366 | 2017  | white                | white                | 11500      | 105151,000000 |
+| gmc                  | 1gtr2ve74cz121991 | 2012  | white                | white                | 5790       | 105020,000000 |
+| chrysler             | 1c3lc66m77n591138 | 2007  | gold                 | gold                 | 1420       | 104405,000000 |
+| chevrolet            | 3gcukrec0hg249327 | 2017  | white                | white                | 18500      | 103955,000000 |
+| ford                 | 1ftmf1c85fkd31564 | 2015  | white                | white                | 3920       | 102700,000000 |
+| chevrolet            | 1g1p75sz3e7332279 | 2014  | black                | black                | 4200       | 102500,000000 |
+| ford                 | 1ftfw1ef9gkf57726 | 2016  | white                | white                | 9280       | 101380,000000 |
+| ford                 | 3fa6p0h71fr180238 | 2015  | gray                 | gray                 | 3790       | 100893,000000 |
+| ford                 | 1ftfw1et7dfa47790 | 2013  | black                | black                | 20700      | 100757,000000 |
+| chevrolet            | 1g1105sa9hu160835 | 2017  | black                | black                | 8200       | 100315,000000 |
+| dodge                | 3c4pdcbg0ft637173 | 2015  | black                | black                | 5200       | 100203,000000 |
+| dodge                | 1c6rd7ft0cs326533 | 2012  | gray                 | gray                 | 8300       | 99015,000000 |
+| mercedes-benz        | wd4pe7dd1gp253504 | 2016  | white                | white                | 16600      | 97983,000000 |
+| kia                  | knagm4a75d5378293 | 2013  | silver               | silver               | 3000       | 97142,000000 |
+| dodge                | 1c3cdfbb6ed862064 | 2014  | silver               | silver               | 4900       | 96922,000000 |
+| dodge                | 2c3cdybt3eh136783 | 2014  | gray                 | gray                 | 16995      | 96575,000000 |
+| chevrolet            | 3gnal3ek3ds630172 | 2013  | gray                 | gray                 | 5100       | 96314,000000 |
+| dodge                | 2c4rdgcg9er400696 | 2014  | white                | white                | 4500       | 95377,000000 |
+| dodge                | 3c4pdcab4ft518015 | 2015  | blue                 | blue                 | 7000       | 95278,000000 |
+| honda                | 19xfb2f81fe252000 | 2015  | white                | white                | 3960       | 95128,000000 |
+| dodge                | 2c4rdgcg3er266428 | 2014  | gray                 | gray                 | 4500       | 94872,000000 |
+| chevrolet            | 1gnkvgkd3ej113338 | 2014  | gray                 | gray                 | 11500      | 94356,000000 |
+| chevrolet            | 1gchsaea7f1213972 | 2015  | white                | white                | 7700       | 94150,000000 |
+| ford                 | 3fa6p0h74dr270819 | 2013  | black                | black                | 0          | 94004,000000 |
+| ford                 | 1fdwf37r28eb95687 | 2008  | white                | white                | 13000      | 93698,000000 |
+| dodge                | 1c3cdfbb5fd319614 | 2015  | white                | white                | 3900       | 93604,000000 |
+| chevrolet            | 3gcuknec9gg342967 | 2016  | white                | white                | 20000      | 93493,000000 |
+| dodge                | 3c4pdcgb7ft597655 | 2015  | red                  | red                  | 4700       | 93423,000000 |
+| chevrolet            | 1gc1kyc87bf185906 | 2011  | blue                 | blue                 | 10440      | 92476,000000 |
+| chevrolet            | 1gc2kvcg8dz256073 | 2013  | silver               | silver               | 11400      | 91638,000000 |
+| chevrolet            | 1g11c5sl8ff311156 | 2015  | no_color             | no_color             | 7400       | 91299,000000 |
+| chevrolet            | 1gcgtce36g1387412 | 2016  | white                | white                | 15700      | 91248,000000 |
+| chevrolet            | 1gnscbkc6gr432916 | 2016  | white                | white                | 22700      | 90944,000000 |
+| ford                 | 3fahp0ha5cr389742 | 2012  | white                | white                | 3450       | 90711,000000 |
+| dodge                | 3c4pddbg6ht592197 | 2017  | white                | white                | 8350       | 90685,000000 |
+| ford                 | nm0ls7e76h1312963 | 2017  | white                | white                | 3740       | 90618,000000 |
+| ford                 | 1ft7w2bt6heb60592 | 2017  | white                | white                | 40514      | 90304,000000 |
+| lincoln              | 1lnhm87a25y619997 | 2005  | green                | green                | 0          | 89705,000000 |
+| chevrolet            | 1g1pa5sgxd7225194 | 2013  | blue                 | blue                 | 4100       | 89152,000000 |
+| dodge                | 1c3cdfbb5fd213552 | 2015  | white                | white                | 3250       | 89142,000000 |
+| chevrolet            | 2gnaxsev1j6218321 | 2018  | white                | white                | 11400      | 88564,000000 |
+| dodge                | 1c3cdfaa2fd144750 | 2015  | white                | white                | 5100       | 88398,000000 |
+| chevrolet            | 2cnfleec9b6313197 | 2011  | brown                | brown                | 4320       | 88359,000000 |
+| chevrolet            | 1gnskbe03br198151 | 2011  | white                | white                | 2300       | 88287,000000 |
+| hyundai              | km8jucag9fu984199 | 2015  | red                  | red                  | 8000       | 88274,000000 |
+| chrysler             | 1c3cccab7fn613884 | 2015  | black                | black                | 7350       | 88227,000000 |
+| chevrolet            | 3gcukrec2eg226031 | 2014  | red                  | red                  | 225        | 87673,000000 |
+| gmc                  | 1gtgg25k391106224 | 2009  | white                | white                | 3330       | 87448,000000 |
+| chevrolet            | 1gcgtcen5j1157983 | 2018  | green                | green                | 18500      | 87264,000000 |
+| dodge                | 2c4rdgbg2gr345223 | 2016  | silver               | silver               | 4610       | 87229,000000 |
+| kia                  | 5xyphda50hg232046 | 2017  | gray                 | gray                 | 13800      | 86959,000000 |
+| ford                 | 3fahp0ga3ar366961 | 2010  | silver               | silver               | 0          | 86841,000000 |
+| ford                 | 1fm5k8f8xggc51519 | 2016  | gray                 | gray                 | 19900      | 86826,000000 |
+| chevrolet            | 2g1115s37g9109571 | 2016  | black                | black                | 8000       | 86541,000000 |
+| dodge                | 1c4rdjdg3dc674852 | 2013  | white                | white                | 9800       | 86500,000000 |
+| dodge                | 1c4rdjeg3ec591566 | 2014  | no_color             | no_color             | 18000      | 86125,000000 |
+| chevrolet            | 2g1145s39g9185641 | 2016  | silver               | silver               | 13400      | 86031,000000 |
+| chevrolet            | 1gnscbkc0fr109217 | 2015  | black                | black                | 23800      | 85792,000000 |
+| chevrolet            | 3gcukrecxhg319917 | 2017  | white                | white                | 23800      | 85697,000000 |
+| dodge                | 2c3cdxbg5eh300547 | 2014  | blue                 | blue                 | 8900       | 85639,000000 |
+| chevrolet            | 2gnflfek3h6341370 | 2017  | white                | white                | 11200      | 85315,000000 |
+| chevrolet            | 1g1pg5sbxf7249436 | 2015  | silver               | silver               | 3300       | 85301,000000 |
+| chevrolet            | 1gchsaea3f1218425 | 2015  | white                | white                | 8900       | 85072,000000 |
+| ford                 | 1ftew1ef1hke25038 | 2017  | white                | white                | 10940      | 84916,000000 |
+| ford                 | 1ftfw1ef1gfb13670 | 2016  | black                | black                | 24000      | 84413,000000 |
+| dodge                | 3c4pdcbg0ht518476 | 2017  | gray                 | gray                 | 7900       | 84144,000000 |
+| ford                 | 1ft7w2btxgeb64448 | 2016  | white                | white                | 13270      | 84035,000000 |
+| nissan               | 1n4al3ap6fc102604 | 2015  | black                | black                | 3800       | 83915,000000 |
+| honda                | 5fnyf4h26fb052452 | 2015  | silver               | silver               | 6240       | 83623,000000 |
+| chevrolet            | 1g1pc5sb0f7185936 | 2015  | gray                 | gray                 | 4500       | 83279,000000 |
+| dodge                | 3c4pdcbb9gt181387 | 2016  | white                | white                | 4240       | 83262,000000 |
+| chevrolet            | 1g11c5sl0ff208474 | 2015  | white                | white                | 6500       | 83173,000000 |
+| chevrolet            | 1gnkrfed3hj217603 | 2017  | gray                 | gray                 | 12300      | 83168,000000 |
+| ford                 | 1ftew1eg0ffb32472 | 2015  | white                | white                | 10630      | 82899,000000 |
+| chevrolet            | 1gnscakc0fr161697 | 2015  | gray                 | gray                 | 22000      | 82785,000000 |
+| chevrolet            | 3gcpcse09dg282246 | 2013  | black                | black                | 14200      | 82543,000000 |
+| ford                 | 3fa6p0hdxfr258523 | 2015  | silver               | silver               | 3830       | 82534,000000 |
+| mercedes-benz        | 4jgda5hb2fa567147 | 2015  | black                | black                | 18000      | 82411,000000 |
+| dodge                | 1c4rdjag5gc486469 | 2016  | white                | white                | 14500      | 82240,000000 |
+| chevrolet            | 1gcsgafx9e1173192 | 2014  | white                | white                | 9000       | 82020,000000 |
+| dodge                | 2c4rdgcg9hr818437 | 2017  | silver               | silver               | 9000       | 81992,000000 |
+| chevrolet            | 1gnskckc5fr181703 | 2015  | gold                 | gold                 | 33100      | 81614,000000 |
+| chevrolet            | 3gcuksec6fg382971 | 2015  | black                | black                | 25000      | 80946,000000 |
+| dodge                | 3c6ud5dl9cg338415 | 2012  | gray                 | gray                 | 25200      | 80899,000000 |
+| chevrolet            | 3n63m0yn5fk720622 | 2015  | white                | white                | 7200       | 80711,000000 |
+| chevrolet            | 2gnfleek2h6351253 | 2017  | gray                 | gray                 | 10800      | 80516,000000 |
+| bmw                  | wbaph7g58bnn05983 | 2011  | gray                 | gray                 | 6200       | 80394,000000 |
+| dodge                | 1c3cdzcb6dn599101 | 2013  | white                | white                | 3000       | 80099,000000 |
+| chevrolet            | 2gnflfek5h6351639 | 2017  | silver               | silver               | 11200      | 79965,000000 |
+| dodge                | 2c4rdgcg4gr384748 | 2016  | white                | white                | 8200       | 79637,000000 |
+| dodge                | 3c6td4ht4cg255894 | 2012  | white                | white                | 7600       | 79544,000000 |
+| chevrolet            | 1gcrcpehxfz272176 | 2015  | red                  | red                  | 15500      | 79506,000000 |
+| ford                 | 1fmcu0g9xeud52262 | 2014  | white                | white                | 7900       | 79422,000000 |
+| chevrolet            | 2gnaxsevxj6292207 | 2018  | white                | white                | 11400      | 78956,000000 |
+| chevrolet            | 1g11b5sl5ff135735 | 2015  | white                | white                | 8000       | 78800,000000 |
+| ford                 | 1fmcu9gd2huc27625 | 2017  | black                | black                | 2500       | 78698,000000 |
+| chevrolet            | 3n63m0yn6hk696088 | 2017  | white                | white                | 10400      | 78368,000000 |
+| chevrolet            | 1g11c5saxdf350889 | 2013  | gray                 | gray                 | 3500       | 78198,000000 |
+| bmw                  | wbawb33548p132854 | 2008  | white                | white                | 1825       | 77984,000000 |
+| ford                 | 1ftew1ep1gfc64335 | 2016  | white                | white                | 28800      | 77638,000000 |
+| chevrolet            | kl7cjpsb3gb750120 | 2016  | silver               | silver               | 8000       | 77429,000000 |
+| ford                 | 1fd8w3gt0beb32874 | 2011  | white                | white                | 19500      | 76897,000000 |
+| ford                 | 1fbax2cv0hkb32599 | 2017  | white                | white                | 0          | 76858,000000 |
+| ford                 | 1ft7w2bt3heb19966 | 2017  | white                | white                | 43009      | 76418,000000 |
+| chevrolet            | 1gc1kxc86bf208814 | 2011  | gray                 | gray                 | 31200      | 76326,000000 |
+| chevrolet            | 2gnflfek5h6341662 | 2017  | blue                 | blue                 | 11900      | 76211,000000 |
+| dodge                | 3c4pdcgb7ht525941 | 2017  | black                | black                | 8000       | 76117,000000 |
+| ford                 | 1fm5k8f81egb23411 | 2014  | black                | black                | 14600      | 75785,000000 |
+| chevrolet            | 1gnskckc9gr424401 | 2016  | black                | black                | 35300      | 75506,000000 |
+| dodge                | 1c3cdfbaxed815126 | 2014  | red                  | red                  | 1750       | 74975,000000 |
+| ford                 | 1fm5k7d88fga24308 | 2015  | black                | black                | 6490       | 74754,000000 |
+| dodge                | 3c4pdcab8ht507652 | 2017  | black                | black                | 6500       | 74392,000000 |
+| dodge                | 2c3cdxct3eh230364 | 2014  | white                | white                | 10500      | 74203,000000 |
+| ford                 | 1ftew1cf8gkd34592 | 2016  | white                | white                | 8600       | 73321,000000 |
+| ford                 | 1fmjk1ht3gef52975 | 2016  | silver               | silver               | 22800      | 72885,000000 |
+| jeep                 | 1c4rjfbg4ec441069 | 2014  | gray                 | gray                 | 7770       | 72732,000000 |
+| dodge                | 1c4sdjct7ec971656 | 2014  | black                | black                | 20800      | 72594,000000 |
+| honda                | 5fnrl5h65gb151898 | 2016  | gray                 | gray                 | 17200      | 72527,000000 |
+| ford                 | 1ft7w2bt8hec67434 | 2017  | white                | white                | 15840      | 72445,000000 |
+| dodge                | 1c3cdfbb8gd766472 | 2016  | blue                 | blue                 | 6500       | 72248,000000 |
+| chevrolet            | 1gc1ksey8kf114255 | 2019  | white                | white                | 33100      | 72172,000000 |
+| ford                 | 1ftew1eg0hfb93193 | 2017  | red                  | red                  | 31003      | 72084,000000 |
+| kia                  | kndpn3ac7h7113313 | 2017  | silver               | silver               | 13000      | 71991,000000 |
+| infiniti             | jn1by1ar7gm271292 | 2016  | gray                 | gray                 | 18500      | 71967,000000 |
+| chevrolet            | 1gc1kve82gf207345 | 2016  | white                | white                | 31002      | 71809,000000 |
+| honda                | 2hkrm3h45gh513861 | 2016  | black                | black                | 4950       | 71404,000000 |
+| gmc                  | 2gkfluek3h6232330 | 2017  | black                | black                | 6270       | 70443,000000 |
+| dodge                | 1c3cdfbb3fd213551 | 2015  | white                | white                | 6100       | 70296,000000 |
+| ford                 | 1ftew1cg0ffa89853 | 2015  | white                | white                | 15700      | 70251,000000 |
+| dodge                | 2c4rdgbg3er453122 | 2014  | blue                 | blue                 | 8500       | 69936,000000 |
+| chevrolet            | 2g1fk1ejxa9163850 | 2010  | yellow               | yellow               | 6470       | 69622,000000 |
+| chevrolet            | 3gcuksej3fg195122 | 2015  | brown                | brown                | 29000      | 69377,000000 |
+| dodge                | 2c3cdyag9eh126828 | 2014  | gray                 | gray                 | 12995      | 68310,000000 |
+| ford                 | 1fmcu0f78gub36672 | 2016  | white                | white                | 3650       | 68142,000000 |
+| chevrolet            | 1gnskbkc6hr132085 | 2017  | black                | black                | 33000      | 67620,000000 |
+| chevrolet            | 1g1zj5su8gf337274 | 2016  | gray                 | gray                 | 9000       | 67527,000000 |
+| ford                 | 1ftex1e83hfb13813 | 2017  | black                | black                | 18712      | 67347,000000 |
+| ford                 | 3fa6p0h75hr150081 | 2017  | gray                 | gray                 | 725        | 67279,000000 |
+| ford                 | 1ftew1ep3hfb25518 | 2017  | red                  | red                  | 22800      | 67217,000000 |
+| ford                 | 2fmpk3k95gbb76939 | 2016  | silver               | silver               | 6810       | 66781,000000 |
+| chevrolet            | 3gcukrec5gg277008 | 2016  | white                | white                | 22500      | 66640,000000 |
+| ford                 | 1ft7w2bt0hef21363 | 2017  | white                | white                | 15290      | 66582,000000 |
+| dodge                | 1c6rd7lt4cs187334 | 2012  | black                | black                | 15500      | 66452,000000 |
+| dodge                | 1c3cdfbb6gd515496 | 2016  | silver               | silver               | 6200       | 66167,000000 |
+| chevrolet            | 1g1jg6sb3d4251006 | 2013  | black                | black                | 1500       | 66079,000000 |
+| audi                 | wa1l2afpxha049370 | 2017  | blue                 | blue                 | 19500      | 65833,000000 |
+| chevrolet            | 1gcgtcen1h1148658 | 2017  | red                  | red                  | 22500      | 65344,000000 |
+| chevrolet            | 1gcvkneh3gz336629 | 2016  | white                | white                | 17600      | 65336,000000 |
+| ford                 | 1ftfw1et4efc23745 | 2014  | blue                 | blue                 | 25000      | 64146,000000 |
+| acura                | 5fryd3h20eb002546 | 2014  | silver               | silver               | 16900      | 63500,000000 |
+| ford                 | 2fmpk3j92hbc12542 | 2017  | black                | black                | 5250       | 63418,000000 |
+| ford                 | 1fm5k8fh9ggc37790 | 2016  | black                | black                | 22300      | 62774,000000 |
+| chevrolet            | 2gnflfek4h6351292 | 2017  | black                | black                | 13200      | 62739,000000 |
+| dodge                | 1c3cdfcb9fd102064 | 2015  | white                | white                | 7700       | 62683,000000 |
+| ford                 | 1ft7w2bt3hed62547 | 2017  | blue                 | blue                 | 43402      | 62387,000000 |
+| dodge                | 2c3cdybt1eh270465 | 2014  | jazz blue pearlcoat  | jazz blue pearlcoat  | 20227      | 62230,000000 |
+| dodge                | 3c4pdcabxht695526 | 2017  | black                | black                | 8500       | 62224,000000 |
+| ford                 | 1ftxw43r18eb10682 | 2008  | white                | white                | 26500      | 62015,000000 |
+| chevrolet            | 2gnflhe33f6214023 | 2015  | black                | black                | 15000      | 61578,000000 |
+| ford                 | 1ftew1cf3fke12825 | 2015  | silver               | silver               | 26500      | 61436,000000 |
+| bmw                  | 5uxwx9c51h0t09021 | 2017  | black                | black                | 19700      | 61428,000000 |
+| chevrolet            | 1g1pl5sc7c7367895 | 2012  | white                | white                | 2800       | 61258,000000 |
+| ford                 | 3fa6p0luxhr231039 | 2017  | black                | black                | 4080       | 61027,000000 |
+| chevrolet            | 2gnflfek7h6351433 | 2017  | black                | black                | 12700      | 60733,000000 |
+| ford                 | 3fa6p0hd7hr273550 | 2017  | red                  | red                  | 4200       | 60219,000000 |
+| chevrolet            | 1gc4k1e88gf118806 | 2016  | white                | white                | 42700      | 60215,000000 |
+| buick                | kl4cjcsb1hb024411 | 2017  | black                | black                | 13200      | 60171,000000 |
+| chevrolet            | 3gcuktec6hg222226 | 2017  | black                | black                | 31500      | 59965,000000 |
+| dodge                | 3c4pdcgg1jt257213 | 2018  | silver               | silver               | 12500      | 59924,000000 |
+| gmc                  | 2gkfltek3h6256220 | 2017  | black                | black                | 5600       | 59808,000000 |
+| dodge                | 2c4rdgcg3hr864989 | 2017  | gray                 | gray                 | 11900      | 59537,000000 |
+| chevrolet            | 2gnflfek8h6350288 | 2017  | black                | black                | 12700      | 58932,000000 |
+| chevrolet            | 3gcpcrec6gg235750 | 2016  | white                | white                | 22000      | 58856,000000 |
+| ford                 | 1fahp60a63y107799 | 2003  | gray                 | gray                 | 13000      | 58817,000000 |
+| chevrolet            | 1gnkrfed7hj307708 | 2017  | white                | white                | 14100      | 58606,000000 |
+| chevrolet            | 2gnalbek5f1140499 | 2015  | red                  | red                  | 10950      | 58504,000000 |
+| gmc                  | 2gkfltek2h6317685 | 2017  | black                | black                | 5630       | 58366,000000 |
+| chevrolet            | 3gcukrec0gg380000 | 2016  | silver               | silver               | 25502      | 58303,000000 |
+| cadillac             | 1gys4tkj0fr538846 | 2015  | gray                 | gray                 | 33300      | 57932,000000 |
+| chevrolet            | 1g1pe5sb1g7193233 | 2016  | blue                 | blue                 | 8600       | 57825,000000 |
+| chevrolet            | 1gc1kvey3jf197819 | 2018  | white                | white                | 31600      | 57751,000000 |
+| ford                 | 1fm5k8f80hgc67231 | 2017  | black                | black                | 23500      | 57611,000000 |
+| chevrolet            | 1gc1kwey3jf123662 | 2018  | white                | white                | 43500      | 57604,000000 |
+| dodge                | 2c4rdgeg5jr337118 | 2018  | black                | black                | 14100      | 57394,000000 |
+| ford                 | wf0dp3th0g4113219 | 2016  | gray                 | gray                 | 10480      | 57289,000000 |
+| ford                 | 1ftew1ef4hfa16802 | 2017  | black                | black                | 27003      | 57186,000000 |
+| hyundai              | 5npd84lf6hh128808 | 2017  | white                | white                | 8200       | 56690,000000 |
+| chevrolet            | 2g1fc3d32d9188287 | 2013  | black                | black                | 10200      | 56479,000000 |
+| ford                 | 1fm5k8gt9ega74266 | 2014  | silver               | silver               | 125        | 56461,000000 |
+| chevrolet            | 3gcukreh2jg284677 | 2018  | black                | black                | 24300      | 56296,000000 |
+| chevrolet            | 1gc1kwey6jf259008 | 2018  | white                | white                | 43500      | 56007,000000 |
+| ford                 | 1fmzk1cm1hkb51026 | 2017  | white                | white                | 7420       | 55854,000000 |
+| dodge                | 3c4pdcab7gt103739 | 2016  | gray                 | gray                 | 7100       | 55749,000000 |
+| ford                 | 1ft8w4dtxhed96692 | 2017  | white                | white                | 53500      | 55732,000000 |
+| ford                 | 1fmzk1cmxhkb51025 | 2017  | white                | white                | 7320       | 55618,000000 |
+| chevrolet            | 1gc1kvey2jf198038 | 2018  | white                | white                | 32100      | 55532,000000 |
+| chevrolet            | 3gcukrec3hg429109 | 2017  | black                | black                | 26414      | 55222,000000 |
+| dodge                | 2c4rdgcg2jr205677 | 2018  | white                | white                | 13000      | 54960,000000 |
+| chevrolet            | 1g1pe5sb4g7168780 | 2016  | blue                 | blue                 | 9100       | 54655,000000 |
+| ford                 | 1ft8w3dt5deb68569 | 2013  | gray                 | gray                 | 38100      | 54380,000000 |
+| gmc                  | 1gkknwls6jz133440 | 2018  | gray                 | gray                 | 21400      | 54332,000000 |
+| dodge                | 2c3cdxjg0kh682158 | 2019  | orange               | orange               | 30000      | 54309,000000 |
+| dodge                | 2c3cdxctxhh618731 | 2017  | orange               | orange               | 27900      | 54141,000000 |
+| dodge                | 2c4rdgeg6jr205887 | 2018  | white                | white                | 13700      | 54106,000000 |
+| chevrolet            | 1g1zd5stxjf140841 | 2018  | black                | black                | 12300      | 53599,000000 |
+| kia                  | 5xypgda51hg221253 | 2017  | black                | black                | 14000      | 53424,000000 |
+| chevrolet            | 1g1bc5sm8h7200200 | 2017  | black                | black                | 7200       | 53273,000000 |
+| ford                 | 1ftew1epxhfb71427 | 2017  | black                | black                | 23100      | 53270,000000 |
+| chevrolet            | 2g1105s3xj9121918 | 2018  | white                | white                | 13500      | 53194,000000 |
+| dodge                | 2c3cdxbg0jh187083 | 2018  | silver               | silver               | 6140       | 52966,000000 |
+| gmc                  | 2gkfltek8h6226257 | 2017  | silver               | silver               | 5520       | 52904,000000 |
+| dodge                | 2c3cdxjg2kh658962 | 2019  | white                | white                | 30000      | 52822,000000 |
+| chevrolet            | 1gazgpfg0h1169059 | 2017  | white                | white                | 17700      | 52667,000000 |
+| chevrolet            | 1gnschkc1jr235923 | 2018  | silver               | silver               | 29500      | 52618,000000 |
+| chevrolet            | 3gcukreh0jg303596 | 2018  | white                | white                | 33000      | 52521,000000 |
+| chevrolet            | 1g1fb1rsxh0185712 | 2017  | black                | black                | 17800      | 52435,000000 |
+| dodge                | 3c4pdcab0ht524414 | 2017  | silver               | silver               | 10000      | 52386,000000 |
+| chevrolet            | 1g1rd6s59hu201853 | 2017  | black                | black                | 16500      | 52322,000000 |
+| dodge                | 2c4rdgegxjr339012 | 2018  | white                | white                | 13000      | 52079,000000 |
+| buick                | 5gakvbkd8gj196085 | 2016  | beige                | beige                | 20105      | 51393,000000 |
+| chevrolet            | 1gnskhkc5jr243896 | 2018  | black                | black                | 35300      | 51347,000000 |
+| chevrolet            | 1gcukrecxhf153500 | 2017  | beige                | beige                | 24005      | 51293,000000 |
+| dodge                | 3c4pddgg5ht702827 | 2017  | black                | black                | 13700      | 51041,000000 |
+| dodge                | 3c4pdcab6jt273002 | 2018  | red                  | red                  | 4040       | 50765,000000 |
+| ford                 | 1ftfx1ef5hke41700 | 2017  | black                | black                | 22809      | 50732,000000 |
+| dodge                | 2c3cdxct3gh355660 | 2016  | black                | black                | 18200      | 50639,000000 |
+| ford                 | 3fa6p0hdxfr241138 | 2015  | gold                 | gold                 | 3830       | 50593,000000 |
+| chevrolet            | 2gnflfek3h6342356 | 2017  | black                | black                | 13200      | 50408,000000 |
+| dodge                | 2c4rdgcg8jr208468 | 2018  | no_color             | no_color             | 11500      | 50193,000000 |
+| dodge                | 2c3cdyag3eh251064 | 2014  | billet silver metallic clearcoat | billet silver metallic clearcoat | 15322      | 49982,000000 |
+| mercedes-benz        | wddhf5kbxfb099457 | 2015  | gray                 | gray                 | 17900      | 49772,000000 |
+| dodge                | 1c4rdjdg2jc329601 | 2018  | white                | white                | 23100      | 49496,000000 |
+| dodge                | 1c3cdffh0gd823262 | 2016  | black                | black                | 6800       | 49033,000000 |
+| ford                 | 1ftew1ep4hkc08477 | 2017  | black                | black                | 23702      | 49024,000000 |
+| chevrolet            | 1gnskhkc2kr158368 | 2019  | silver               | silver               | 34800      | 48982,000000 |
+| chevrolet            | 1gcvkneh7gz158854 | 2016  | white                | white                | 18600      | 48974,000000 |
+| chevrolet            | 1gnschkc1jr387653 | 2018  | gray                 | gray                 | 29800      | 48807,000000 |
+| chevrolet            | 1gnkvjkd3gj171692 | 2016  | gray                 | gray                 | 24400      | 48705,000000 |
+| dodge                | 2c4rdgegxjr331914 | 2018  | gray                 | gray                 | 13300      | 48681,000000 |
+| chevrolet            | 1gnschkc6jr106222 | 2018  | silver               | silver               | 29800      | 48427,000000 |
+| dodge                | 2c4rdgeg2kr565983 | 2019  | white                | white                | 15100      | 48319,000000 |
+| dodge                | 2c4rdgeg8hr632871 | 2017  | no_color             | no_color             | 15000      | 48162,000000 |
+| mercedes-benz        | wddwk4jb2jf613298 | 2018  | white                | white                | 10740      | 48140,000000 |
+| ford                 | 1ftew1ep2hkd15978 | 2017  | red                  | red                  | 28500      | 48086,000000 |
+| dodge                | 2c3cdybt2eh298212 | 2014  | black                | black                | 17750      | 48000,000000 |
+| honda                | 2hgfc2f52hh522914 | 2017  | blue                 | blue                 | 3900       | 47970,000000 |
+| jeep                 | 1c4pjmdx4kd197521 | 2019  | red                  | red                  | 6930       | 47798,000000 |
+| mazda                | jm1dkbd74g0123647 | 2016  | gray                 | gray                 | 16000      | 47753,000000 |
+| chevrolet            | 1gcptce16h1176629 | 2017  | black                | black                | 23505      | 47357,000000 |
+| chevrolet            | 1g1zd5st4kf126371 | 2019  | silver               | silver               | 13700      | 47282,000000 |
+| chevrolet            | 2g1fb3ddxb9212618 | 2011  | black                | black                | 1800       | 47269,000000 |
+| audi                 | wuac6bfr0fa901212 | 2015  | black                | black                | 36400      | 47213,000000 |
+| ford                 | 1ft7w2bt3hef41039 | 2017  | black                | black                | 50412      | 47129,000000 |
+| dodge                | 2c4rdgeg8jr337145 | 2018  | silver               | silver               | 5690       | 47085,000000 |
+| ford                 | 1ft7x2b62eea29551 | 2014  | brown                | brown                | 25800      | 47055,000000 |
+| jeep                 | 1c4pjllb6kd184477 | 2019  | silver               | silver               | 4950       | 46985,000000 |
+| ford                 | 1ftew1ef3hfc22483 | 2017  | gray                 | gray                 | 24800      | 46955,000000 |
+| dodge                | 2c4rdgcg1kr520021 | 2019  | black                | black                | 14100      | 46942,000000 |
+| chevrolet            | 1gnskbkc9jr370082 | 2018  | gray                 | gray                 | 32800      | 46915,000000 |
+| chevrolet            | 1gnskbkc9kr143993 | 2019  | black                | black                | 35300      | 46863,000000 |
+| dodge                | 2c3cdyag6eh133624 | 2014  | billet silver metallic clearcoat | billet silver metallic clearcoat | 14900      | 46859,000000 |
+| dodge                | 3c4pddeg7ht595704 | 2017  | gray                 | gray                 | 5580       | 46829,000000 |
+| buick                | 1g4zp5ss8hu149142 | 2017  | silver               | silver               | 18100      | 46766,000000 |
+| chevrolet            | 1g1ze5stxhf257679 | 2017  | white                | white                | 13500      | 46497,000000 |
+| chevrolet            | 1gnschkc5jr280816 | 2018  | white                | white                | 30300      | 46494,000000 |
+| cadillac             | 1g6ah1rx1g0193887 | 2016  | white                | white                | 19002      | 46467,000000 |
+| chevrolet            | 1q87t3n166389  | 1973  | red                  | red                  | 29800      | 46226,000000 |
+| kia                  | 3kpfk4a77je198723 | 2018  | blue                 | blue                 | 5200       | 46194,000000 |
+| chevrolet            | 1gnskhkc1kr203879 | 2019  | silver               | silver               | 35500      | 46149,000000 |
+| chevrolet            | 3gcuksej6hg353147 | 2017  | white                | white                | 32012      | 46091,000000 |
+| bmw                  | 5uxwx9c57d0a24286 | 2013  | white                | white                | 2925       | 46060,000000 |
+| ford                 | 2fmpk3j84hbc09276 | 2017  | blue                 | blue                 | 6180       | 46010,000000 |
+| chevrolet            | 1g1zd5stxjf175198 | 2018  | white                | white                | 10200      | 45836,000000 |
+| chevrolet            | 1gc1kwegxff145382 | 2015  | white                | white                | 37000      | 45787,000000 |
+| ford                 | 1fatp8uhxg5296168 | 2016  | silver               | silver               | 13500      | 45757,000000 |
+| dodge                | 2c4rdgeg9jr237989 | 2018  | white                | white                | 5700       | 45561,000000 |
+| dodge                | 2c3cdxjg1kh630912 | 2019  | white                | white                | 30000      | 45554,000000 |
+| ford                 | 1fm5k7d82hgb39148 | 2017  | white                | white                | 7070       | 45191,000000 |
+| dodge                | 2c4rdgcg3kr514530 | 2019  | gray                 | gray                 | 13900      | 45089,000000 |
+| ford                 | 1fm5k7b86hga87008 | 2017  | black                | black                | 5990       | 44929,000000 |
+| ford                 | 2fmpk4j87hbb21750 | 2017  | gray                 | gray                 | 7760       | 44794,000000 |
+| bmw                  | wba3b5g54ens10419 | 2014  | silver               | silver               | 15000      | 44730,000000 |
+| chevrolet            | 1g1fh1r79g0149647 | 2016  | white                | white                | 27500      | 44653,000000 |
+| dodge                | 2c3cdyag9eh313809 | 2014  | black clearcoat      | black clearcoat      | 15810      | 44468,000000 |
+| chevrolet            | 1gazgpfg7j1254194 | 2018  | white                | white                | 19500      | 44333,000000 |
+| chevrolet            | 3gncjnsb1gl264970 | 2016  | red                  | red                  | 10700      | 44280,000000 |
+| ford                 | 1fadp5auxhl109013 | 2017  | white                | white                | 4190       | 44174,000000 |
+| honda                | 5j6rw1h81hl005542 | 2017  | brown                | brown                | 6900       | 44129,000000 |
+| chevrolet            | 1gcvknec1gz396932 | 2016  | silver               | silver               | 21003      | 44116,000000 |
+| jeep                 | 1c4pjldbxkd300679 | 2019  | red                  | red                  | 6330       | 43965,000000 |
+| kia                  | 5xypkda50hg299327 | 2017  | gray                 | gray                 | 21500      | 43761,000000 |
+| chevrolet            | 2gnaxkevxk6199639 | 2019  | charcoal             | charcoal             | 14800      | 43589,000000 |
+| hyundai              | km8j33a49ku860727 | 2019  | blue                 | blue                 | 5350       | 43536,000000 |
+| dodge                | 2c3cdxjg2kh630921 | 2019  | white                | white                | 30000      | 43294,000000 |
+| chevrolet            | 2gnaxuev0k6196714 | 2019  | white                | white                | 16100      | 43199,000000 |
+| chevrolet            | 3gcuksec6gg284475 | 2016  | red                  | red                  | 30851      | 43176,000000 |
+| nissan               | 3n1cn7ap5jl882275 | 2018  | white                | white                | 2630       | 43152,000000 |
+| chevrolet            | 1gnskhkcxkr306962 | 2019  | gray                 | gray                 | 35000      | 43082,000000 |
+| dodge                | 2c4rdgcg2jr218218 | 2018  | gray                 | gray                 | 5090       | 42989,000000 |
+| chevrolet            | 1gnevhkw8jj148388 | 2018  | black                | black                | 26900      | 42941,000000 |
+| chevrolet            | 1gnevhkw8jj148388 | 2018  | black                | black                | 26900      | 42941,000000 |
+| ford                 | 1ft8w3b61fec52078 | 2015  | white                | white                | 34000      | 42930,000000 |
+| dodge                | 2c3cdzag3jh242672 | 2018  | no_color             | no_color             | 17300      | 42909,000000 |
+| chrysler             | 2c3ccabgxkh559658 | 2019  | gray                 | gray                 | 19600      | 42648,000000 |
+| dodge                | 2c4rdgcg0jr241626 | 2018  | silver               | silver               | 13100      | 42621,000000 |
+| nissan               | 5n1at2mv4hc773816 | 2017  | blue                 | blue                 | 5690       | 42616,000000 |
+| chevrolet            | kl8cb6sa3jc459211 | 2018  | red                  | red                  | 7200       | 42561,000000 |
+| ford                 | 3fa6p0lu4hr246569 | 2017  | gray                 | gray                 | 4130       | 42426,000000 |
+| ford                 | 1ft7w2bt7hec67263 | 2017  | white                | white                | 15110      | 42289,000000 |
+| chevrolet            | 1gnschkc9kr204131 | 2019  | silver               | silver               | 32200      | 42267,000000 |
+| dodge                | 2c4rdgcg3jr364854 | 2018  | white                | white                | 13300      | 42190,000000 |
+| ford                 | 1fm5k7f80hga03159 | 2017  | black                | black                | 8530       | 42104,000000 |
+| chevrolet            | 1g1zb5st8jf226848 | 2018  | gray                 | gray                 | 6000       | 42090,000000 |
+| gmc                  | 1gkknxls3hz174527 | 2017  | black                | black                | 9190       | 41961,000000 |
+| chrysler             | 2c3ccaeg0kh555632 | 2019  | gray                 | gray                 | 18300      | 41792,000000 |
+| chevrolet            | 1g1zd5st8jf242655 | 2018  | gray                 | gray                 | 13000      | 41751,000000 |
+| dodge                | 2c3cdzbt4gh325869 | 2016  | no_color             | no_color             | 25000      | 41748,000000 |
+| chevrolet            | 1gcvkreh7jz295386 | 2018  | gray                 | gray                 | 19600      | 41672,000000 |
+| nissan               | 5n1at2mn5gc894272 | 2016  | blue                 | blue                 | 3820       | 41654,000000 |
+| dodge                | 2c4rdgcg8jr327542 | 2018  | silver               | silver               | 15200      | 41636,000000 |
+| dodge                | 2c4rdgeg5kr563175 | 2019  | blue                 | blue                 | 15400      | 41601,000000 |
+| ford                 | 2ftcf15y9eca14589 | 1984  | white                | white                | 25         | 41577,000000 |
+| ford                 | 1fmzk1cm7hkb51015 | 2017  | white                | white                | 4530       | 41455,000000 |
+| dodge                | 1c4sdjct2kc576022 | 2019  | silver               | silver               | 29300      | 41198,000000 |
+| chevrolet            | 2g11z5sa8k9139310 | 2019  | charcoal             | charcoal             | 14800      | 41163,000000 |
+| dodge                | 2c4rdgcg5kr606318 | 2019  | silver               | silver               | 14600      | 41126,000000 |
+| chevrolet            | 1gcvkrec8hz169908 | 2017  | no_color             | no_color             | 25300      | 40878,000000 |
+| mercedes-benz        | 4jgda5jbxjb046383 | 2018  | white                | white                | 28000      | 40780,000000 |
+| ford                 | 3fa6p0h73hr358945 | 2017  | white                | white                | 4140       | 40747,000000 |
+| ford                 | 1fm5k8ht0hga07252 | 2017  | white                | white                | 10780      | 40455,000000 |
+| chevrolet            | 1gcvkreh3jz272445 | 2018  | white                | white                | 19900      | 40345,000000 |
+| nissan               | 3n1ab7ap0hy260843 | 2017  | silver               | silver               | 3160       | 40306,000000 |
+| chevrolet            | 1g1ze5st5gf315602 | 2016  | white                | white                | 12800      | 40253,000000 |
+| chevrolet            | 1gcvkneh1gz235878 | 2016  | white                | white                | 19100      | 40011,000000 |
+| chevrolet            | 1g1bg5sm5g7250863 | 2016  | red                  | red                  | 13500      | 39951,000000 |
+| bmw                  | wba7f2c57gg421020 | 2016  | blue                 | blue                 | 39000      | 39917,000000 |
+| gmc                  | 1gks2bkc7hr133811 | 2017  | red                  | red                  | 12710      | 39886,000000 |
+| dodge                | 2c3cdxjg2hh505412 | 2017  | blue                 | blue                 | 18000      | 39792,000000 |
+| dodge                | 3c4pdcgg9jt216280 | 2018  | black                | black                | 5470       | 39721,000000 |
+| chevrolet            | 1gnkvgkd0hj145877 | 2017  | silver               | silver               | 19405      | 39687,000000 |
+| gmc                  | 1gks2bkc6hr136280 | 2017  | white                | white                | 12920      | 39650,000000 |
+| chevrolet            | 1gc4k0c84gf121926 | 2016  | red                  | red                  | 47400      | 39624,000000 |
+| dodge                | 3c4pdcgg5jt346413 | 2018  | silver               | silver               | 5350       | 39590,000000 |
+| dodge                | 2c4rdgcg9kr578507 | 2019  | red                  | red                  | 14900      | 39515,000000 |
+| kia                  | kndjx3ae3g7012477 | 2016  | black                | black                | 3810       | 39408,000000 |
+| ford                 | 1ft7w2bt7hec41164 | 2017  | black                | black                | 15110      | 39333,000000 |
+| gmc                  | 1gks2bkc6hr134450 | 2017  | silver               | silver               | 12920      | 39165,000000 |
+| dodge                | 3c4pdcab0jt474412 | 2018  | white                | white                | 4290       | 39029,000000 |
+| dodge                | 2c4rdgcg5kr518563 | 2019  | gray                 | gray                 | 16300      | 38922,000000 |
+| dodge                | 2c3cdxct1jh233225 | 2018  | black                | black                | 7210       | 38910,000000 |
+| chevrolet            | 2gnaxkev7k6197637 | 2019  | charcoal             | charcoal             | 15300      | 38826,000000 |
+| kia                  | 3kpfl4a79je272611 | 2018  | black                | black                | 7300       | 38823,000000 |
+| ford                 | 3fa6p0hd2hr178393 | 2017  | gray                 | gray                 | 4100       | 38815,000000 |
+| chrysler             | 2c3ccaeg5kh585628 | 2019  | gray                 | gray                 | 18500      | 38586,000000 |
+| chevrolet            | 1g1ze5st9hf229260 | 2017  | blue                 | blue                 | 14000      | 38458,000000 |
+| dodge                | 2c4rdgeg6kr619687 | 2019  | silver               | silver               | 16900      | 38375,000000 |
+| jeep                 | 1c4pjmbx6kd298806 | 2019  | charcoal             | charcoal             | 20000      | 38355,000000 |
+| nissan               | 3n1ab7ap5jy293102 | 2018  | gray                 | gray                 | 3390       | 38349,000000 |
+| chevrolet            | 1gnschkc9kr201844 | 2019  | black                | black                | 33200      | 38278,000000 |
+| dodge                | 3c4pdcgg2jt378879 | 2018  | white                | white                | 15700      | 38128,000000 |
+| ford                 | 2fmpk3j85hbb79415 | 2017  | red                  | red                  | 6330       | 38123,000000 |
+| dodge                | 2c4rdgeg9kr529238 | 2019  | red                  | red                  | 15700      | 38041,000000 |
+| dodge                | 3c4pdceg6jt516474 | 2018  | white                | white                | 15000      | 38029,000000 |
+| ford                 | 2fmpk3j9xhbb56401 | 2017  | no_color             | no_color             | 5330       | 37792,000000 |
+| kia                  | 5xypgda59hg292944 | 2017  | red                  | red                  | 15500      | 37668,000000 |
+| mercedes-benz        | wddzf4jb6ha277485 | 2017  | blue                 | blue                 | 29400      | 37561,000000 |
+| dodge                | 2c3cdxjg1kh658953 | 2019  | white                | white                | 30000      | 37538,000000 |
+| chevrolet            | 2gnaxkev2k6183550 | 2019  | black                | black                | 15200      | 37444,000000 |
+| dodge                | 2c4rdgeg8jr340109 | 2018  | red                  | red                  | 15500      | 37352,000000 |
+| ford                 | 3fa6p0k93hr257687 | 2017  | white                | white                | 5000       | 37321,000000 |
+| ford                 | 1ftfx1ef0gkf25969 | 2016  | white                | white                | 7570       | 37252,000000 |
+| ford                 | 3fa6p0hd3hr199785 | 2017  | white                | white                | 4160       | 37176,000000 |
+| kia                  | 5xypgda39hg262132 | 2017  | no_color             | no_color             | 13300      | 37125,000000 |
+| dodge                | 2c3cdybt9eh247614 | 2014  | silver               | silver               | 20999      | 37082,000000 |
+| maserati             | zam57xslxh1248775 | 2017  | black                | black                | 30300      | 37021,000000 |
+| ford                 | 2fmpk4g97gbc51848 | 2016  | silver               | silver               | 4880       | 36876,000000 |
+| ford                 | 1fmcu9gx9gua57286 | 2016  | black                | black                | 11500      | 36855,000000 |
+| dodge                | 2c3cdxhgxjh125388 | 2018  | gray                 | gray                 | 6800       | 36767,000000 |
+| nissan               | 3n1cn7ap5jl872135 | 2018  | gray                 | gray                 | 2630       | 36739,000000 |
+| ford                 | 1fmcu0gd5hud08310 | 2017  | black                | black                | 4140       | 36732,000000 |
+| lexus                | 2t2bzmca4hc087456 | 2017  | black                | black                | 10840      | 36596,000000 |
+| chevrolet            | 1gnschkc2kr124931 | 2019  | white                | white                | 33500      | 36443,000000 |
+| chevrolet            | 1gcuyhel9kz240206 | 2019  | gray                 | gray                 | 46800      | 36423,000000 |
+| chevrolet            | 2gnalcek6h6289807 | 2017  | silver               | silver               | 13700      | 36421,000000 |
+| dodge                | 2c3cdzag5jh245542 | 2018  | gray                 | gray                 | 18700      | 36358,000000 |
+| dodge                | 2c4rdgeg5jr147562 | 2018  | gray                 | gray                 | 17000      | 36299,000000 |
+| ford                 | 1ftew1ef3hfb27101 | 2017  | red                  | red                  | 26400      | 36295,000000 |
+| chevrolet            | 1gnskbkc0kr335691 | 2019  | blue                 | blue                 | 38800      | 36198,000000 |
+| chevrolet            | 1g11z5sa7ku117222 | 2019  | silver               | silver               | 15000      | 36165,000000 |
+| ford                 | 1fmcu0g95huc13712 | 2017  | blue                 | blue                 | 4640       | 36139,000000 |
+| cadillac             | 3gyfnee39fs587810 | 2015  | white                | white                | 20400      | 36122,000000 |
+| nissan               | 3n1ab7ap5hy411143 | 2017  | gray                 | gray                 | 3040       | 36064,000000 |
+| chevrolet            | 1g1zd5st5jf249837 | 2018  | white                | white                | 13600      | 36047,000000 |
+| dodge                | 2c4rdgeg1hr716871 | 2017  | gray                 | gray                 | 14800      | 35991,000000 |
+| dodge                | 3c4pdcgg4kt707549 | 2019  | silver               | silver               | 14200      | 35948,000000 |
+| ford                 | 1ftfw1eg3hfc66707 | 2017  | gray                 | gray                 | 33001      | 35905,000000 |
+| ford                 | 1fm5k7dh9hgb05630 | 2017  | gold                 | gold                 | 6830       | 35888,000000 |
+| gmc                  | 2gkfltek8h6338184 | 2017  | silver               | silver               | 5520       | 35821,000000 |
+| ford                 | 1ftew1efxhkc69002 | 2017  | red                  | red                  | 10000      | 35747,000000 |
+| ford                 | 2fmpk3j95hbb73607 | 2017  | white                | white                | 5210       | 35714,000000 |
+| chevrolet            | 1gnskhkcxkr139079 | 2019  | silver               | silver               | 36400      | 35705,000000 |
+| hyundai              | kmhd84lf5hu191402 | 2017  | red                  | red                  | 9800       | 35687,000000 |
+| chevrolet            | 2gnaldek2h1500410 | 2017  | blue                 | blue                 | 17700      | 35664,000000 |
+| hyundai              | 5npd84lf5kh403222 | 2019  | red                  | red                  | 3960       | 35623,000000 |
+| cadillac             | 1gyknbrsxhz114969 | 2017  | gray                 | gray                 | 23605      | 35598,000000 |
+| jeep                 | 3c4njccb4kt662767 | 2019  | charcoal             | charcoal             | 15800      | 35595,000000 |
+| dodge                | 2c3cdzag7jh321665 | 2018  | white                | white                | 6760       | 35461,000000 |
+| dodge                | 1c4rdhdg0kc557042 | 2019  | silver               | silver               | 23500      | 35443,000000 |
+| dodge                | 2c4rdgeg6kr674401 | 2019  | silver               | silver               | 17200      | 35401,000000 |
+| dodge                | 2c3cdxjg8kh527857 | 2019  | gray                 | gray                 | 20800      | 35365,000000 |
+| chevrolet            | 1gazgpfgxk1197071 | 2019  | white                | white                | 19600      | 35309,000000 |
+| dodge                | 1d7rw3gp7bs614101 | 2011  | black                | black                | 15600      | 35275,000000 |
+| nissan               | 3n1ab7apxhy232807 | 2017  | gray                 | gray                 | 3210       | 35251,000000 |
+| chevrolet            | 1g1fb1rsxh0104806 | 2017  | white                | white                | 18600      | 35200,000000 |
+| dodge                | 2c3cdxjg6kh630954 | 2019  | red                  | red                  | 29500      | 35153,000000 |
+| dodge                | 2c3cdxhg6kh611276 | 2019  | black                | black                | 21500      | 35153,000000 |
+| dodge                | 2c3cdxhgxkh527140 | 2019  | gray                 | gray                 | 20800      | 35098,000000 |
+| dodge                | 2c3cdxjg8kh573477 | 2019  | black                | black                | 24300      | 34922,000000 |
+| hyundai              | 3kpc24a34ke050725 | 2019  | gray                 | gray                 | 3440       | 34895,000000 |
+| nissan               | 3n1ab7ap0hy315498 | 2017  | gray                 | gray                 | 3160       | 34861,000000 |
+| ford                 | 1fmcu9hd6juc54783 | 2018  | gold                 | gold                 | 17000      | 34819,000000 |
+| chrysler             | 2c3ccakg4kh594972 | 2019  | gray                 | gray                 | 19300      | 34801,000000 |
+| dodge                | 2c4rdgeg9kr518336 | 2019  | black                | black                | 16500      | 34794,000000 |
+| chevrolet            | 2g11z5s37k9134455 | 2019  | silver               | silver               | 18300      | 34538,000000 |
+| jeep                 | 3c4njccb7kt660088 | 2019  | red                  | red                  | 15900      | 34502,000000 |
+| chevrolet            | 1gnskhkcxkr288236 | 2019  | black                | black                | 37100      | 34470,000000 |
+| chevrolet            | 1gcwgaff9g1216490 | 2016  | white                | white                | 14700      | 34454,000000 |
+| dodge                | 3c4pddeg9ht565166 | 2017  | gray                 | gray                 | 14900      | 34432,000000 |
+| chevrolet            | 1gnkvgkd4hj314704 | 2017  | silver               | silver               | 21700      | 34420,000000 |
+| dodge                | 2c4rdgeg7kr674858 | 2019  | black                | black                | 17300      | 34407,000000 |
+| dodge                | 2c3cdxct7kh608441 | 2019  | white                | white                | 23100      | 34391,000000 |
+| nissan               | 3n1ab7ap1hl639346 | 2017  | silver               | silver               | 3140       | 34318,000000 |
+| dodge                | 2c3cdzag4jh302832 | 2018  | gray                 | gray                 | 18500      | 34272,000000 |
+| ford                 | 1ftfw1eg1hfb78397 | 2017  | red                  | red                  | 27102      | 34165,000000 |
+| ford                 | 3fa6p0hd8hr305132 | 2017  | silver               | silver               | 4130       | 34061,000000 |
+| dodge                | 3c4pdcabxjt311007 | 2018  | gray                 | gray                 | 4260       | 33957,000000 |
+| chevrolet            | 3gcuksec3gg369662 | 2016  | white                | white                | 31009      | 33928,000000 |
+| chevrolet            | 1gnschkc4hr206149 | 2017  | silver               | silver               | 29800      | 33909,000000 |
+| dodge                | 2c4rdgcg2kr648283 | 2019  | white                | white                | 15300      | 33826,000000 |
+| chevrolet            | 1gcgtben3h1180134 | 2017  | turquoise            | turquoise            | 20802      | 33791,000000 |
+| hyundai              | km8k12aa0ku242609 | 2019  | silver               | silver               | 4690       | 33785,000000 |
+| chevrolet            | 2gcrcpec4k1155751 | 2019  | white                | white                | 20700      | 33745,000000 |
+| chevrolet            | 2gnaxuev3k6169765 | 2019  | charcoal             | charcoal             | 16500      | 33739,000000 |
+| mercedes-benz        | wdc0g4jb4jv097463 | 2018  | white                | white                | 24900      | 33687,000000 |
+| chevrolet            | 3gcuknec6gg150809 | 2016  | black                | black                | 24502      | 33624,000000 |
+| nissan               | 3n1ab7ap7hy223787 | 2017  | white                | white                | 3020       | 33599,000000 |
+| chevrolet            | 1gcvkrec7gz392164 | 2016  | white                | white                | 25900      | 33588,000000 |
+| bmw                  | wba3d5c51ekx97650 | 2014  | blue                 | blue                 | 13500      | 33542,000000 |
+| ford                 | 2fmpk3j98gbb59781 | 2016  | white                | white                | 18500      | 33514,000000 |
+| gmc                  | 1gks2gkc5hr326410 | 2017  | white                | white                | 13200      | 33457,000000 |
+| chevrolet            | 1gnskbkc1kr164515 | 2019  | silver               | silver               | 37500      | 33331,000000 |
+| ford                 | 2fmpk3k80gbc65759 | 2016  | silver               | silver               | 7040       | 33291,000000 |
+| chrysler             | 2c3ccakg6kh578112 | 2019  | gray                 | gray                 | 19400      | 33135,000000 |
+| bmw                  | wba7f2c57gg419607 | 2016  | black                | black                | 39000      | 33110,000000 |
+| chevrolet            | 3gcukrec4gg223800 | 2016  | white                | white                | 24502      | 33045,000000 |
+| chevrolet            | 1gnschkc3hr133923 | 2017  | white                | white                | 29800      | 33028,000000 |
+| chevrolet            | 1gcvkrec8gz393856 | 2016  | blue                 | blue                 | 25900      | 32984,000000 |
+| dodge                | 2c4rdgegxkr599122 | 2019  | white                | white                | 17000      | 32937,000000 |
+| dodge                | 3c4pdcab8jt166940 | 2018  | gray                 | gray                 | 4160       | 32870,000000 |
+| chevrolet            | 2gnaxuev8k6190062 | 2019  | charcoal             | charcoal             | 16700      | 32870,000000 |
+| dodge                | 3c4pdceg4kt716822 | 2019  | white                | white                | 15500      | 32865,000000 |
+| chevrolet            | 3g1be6sm0hs561566 | 2017  | red                  | red                  | 9200       | 32856,000000 |
+| dodge                | 1c4rdjdg6kc684983 | 2019  | silver               | silver               | 25900      | 32724,000000 |
+| infiniti             | jn8az2ne0k9233910 | 2019  | brown                | brown                | 14810      | 32611,000000 |
+| dodge                | 2c4rdgeg6hr575487 | 2017  | gray                 | gray                 | 19200      | 32593,000000 |
+| gmc                  | 1gks2gkc6hr327937 | 2017  | silver               | silver               | 12710      | 32504,000000 |
+| dodge                | 3c4pddgg1jt523058 | 2018  | black                | black                | 6060       | 32504,000000 |
+| jeep                 | 3c4njddb7kt682015 | 2019  | red                  | red                  | 17900      | 32501,000000 |
+| ford                 | 2fmpk3g96gbc42228 | 2016  | white                | white                | 4450       | 32486,000000 |
+| cadillac             | 1gykndrs1hz125239 | 2017  | white                | white                | 24500      | 32418,000000 |
+| land                 | salrr2rk0ja052195 | 2018  | black                | black                | 46900      | 32387,000000 |
+| ford                 | 2fmpk4k96hbb16692 | 2017  | gold                 | gold                 | 7320       | 32366,000000 |
+| chevrolet            | 1gc1kweg8ff170135 | 2015  | white                | white                | 36800      | 32332,000000 |
+| dodge                | 2c3cdxjg0gh303988 | 2016  | blue                 | blue                 | 19000      | 32294,000000 |
+| nissan               | 1n6aa1ej3jn519666 | 2018  | gray                 | gray                 | 8350       | 32256,000000 |
+| dodge                | 1c4sdjct6kc717612 | 2019  | white                | white                | 33000      | 32251,000000 |
+| chevrolet            | 1g11z5sa4ku113760 | 2019  | red                  | red                  | 15200      | 32248,000000 |
+| dodge                | 2c3cdxbg2kh644607 | 2019  | red                  | red                  | 19300      | 32229,000000 |
+| chrysler             | 2c4rc1gg4hr635019 | 2017  | silver               | silver               | 25900      | 32224,000000 |
+| buick                | 5gakrckdxhj113512 | 2017  | no_color             | no_color             | 27000      | 32107,000000 |
+| chevrolet            | 3gcuktec5gg350066 | 2016  | black                | black                | 32001      | 32058,000000 |
+| dodge                | 2c3cdzfj5hh650508 | 2017  | no_color             | no_color             | 29500      | 32051,000000 |
+| gmc                  | 1gks2gkcxhr328718 | 2017  | black                | black                | 12520      | 31992,000000 |
+| nissan               | 3n1ab7ap6hy249992 | 2017  | gray                 | gray                 | 2900       | 31954,000000 |
+| ford                 | 1ftew1cp2gke43168 | 2016  | white                | white                | 8020       | 31944,000000 |
+| chevrolet            | 3gcuktej3hg475034 | 2017  | white                | white                | 34002      | 31923,000000 |
+| dodge                | 2c4rdgeg6kr683079 | 2019  | white                | white                | 17500      | 31904,000000 |
+| ford                 | 1fmcu0gd9huc37922 | 2017  | black                | black                | 4430       | 31792,000000 |
+| bmw                  | wba7f2c55gg415264 | 2016  | gray                 | gray                 | 40000      | 31727,000000 |
+| infiniti             | 5n1dl0mm1kc552741 | 2019  | black                | black                | 10400      | 31713,000000 |
+| jeep                 | 3c4njccb0kt676343 | 2019  | silver               | silver               | 16000      | 31594,000000 |
+| ford                 | 1fadp3e24hl348263 | 2017  | gray                 | gray                 | 3160       | 31563,000000 |
+| gmc                  | 1gkknxls7hz295013 | 2017  | gray                 | gray                 | 9190       | 31394,000000 |
+| chrysler             | 2c3ccabg5hh538726 | 2017  | gray                 | gray                 | 19500      | 31311,000000 |
+| chevrolet            | 3gcukrec4hg196549 | 2017  | black                | black                | 28402      | 31234,000000 |
+| hyundai              | kmhd84lf4ku746279 | 2019  | silver               | silver               | 4010       | 31233,000000 |
+| jeep                 | 1c4pjmbx2kd360704 | 2019  | white                | white                | 20700      | 31156,000000 |
+| chevrolet            | 1gcpcrec9hf242498 | 2017  | silver               | silver               | 28100      | 31141,000000 |
+| buick                | 1g4ps5sk1e4188639 | 2014  | brown                | brown                | 12000      | 31039,000000 |
+| chevrolet            | 3gcukrec7hg170656 | 2017  | red                  | red                  | 29500      | 31029,000000 |
+| gmc                  | 1gks2gkc7hr321306 | 2017  | black                | black                | 12780      | 31009,000000 |
+| dodge                | 2c3cdxhg0kh608762 | 2019  | red                  | red                  | 21800      | 30943,000000 |
+| dodge                | 2c3cdxhg2kh608648 | 2019  | black                | black                | 22600      | 30759,000000 |
+| dodge                | 3c4pdceg2jt426366 | 2018  | red                  | red                  | 15500      | 30671,000000 |
+| gmc                  | 1gks2gkcxhr323969 | 2017  | red                  | red                  | 12520      | 30636,000000 |
+| dodge                | 1c4rdhdg7kc675959 | 2019  | gray                 | gray                 | 24000      | 30630,000000 |
+| ford                 | 1fd8w3ht4hed36245 | 2017  | white                | white                | 11760      | 30553,000000 |
+| jeep                 | 1c4pjldb3kd419559 | 2019  | silver               | silver               | 5800       | 30546,000000 |
+| chevrolet            | 3gcukrec4jg204915 | 2018  | red                  | red                  | 30500      | 30442,000000 |
+| ram                  | 1c6rr7pt3hs659994 | 2017  | white                | white                | 11050      | 30421,000000 |
+| dodge                | 1c4rdhdg6kc557000 | 2019  | white                | white                | 24000      | 30408,000000 |
+| dodge                | 2c4rdgcg5kr668950 | 2019  | white                | white                | 17800      | 30403,000000 |
+| hyundai              | 5npd84lf6kh456317 | 2019  | silver               | silver               | 3760       | 30382,000000 |
+| ford                 | 1fm5k7d82hgb21314 | 2017  | black                | black                | 7070       | 30318,000000 |
+| dodge                | 3c4pdcgg9kt700676 | 2019  | silver               | silver               | 14500      | 30229,000000 |
+| land                 | salcp2rx7jh741147 | 2018  | black                | black                | 22500      | 30220,000000 |
+| dodge                | 1c4rdhdg3kc769255 | 2019  | silver               | silver               | 24000      | 30161,000000 |
+| nissan               | 3n1ab7ap1hy310259 | 2017  | white                | white                | 3140       | 30142,000000 |
+| hyundai              | km8j23a45ku893842 | 2019  | red                  | red                  | 4730       | 30121,000000 |
+| gmc                  | 1gks2gkcxhr328380 | 2017  | white                | white                | 12520      | 30114,000000 |
+| dodge                | 1c4rdjdg5kc733915 | 2019  | red                  | red                  | 25800      | 30092,000000 |
+| jeep                 | 3c4njccb3kt676336 | 2019  | red                  | red                  | 16200      | 30061,000000 |
+| gmc                  | 1gks2gkc6hr325461 | 2017  | white                | white                | 12710      | 30049,000000 |
+| ford                 | 1fmcu0gd8huc93883 | 2017  | black                | black                | 6650       | 29942,000000 |
+| chevrolet            | 1g1yj2d7xf5106236 | 2015  | black                | black                | 36900      | 29937,000000 |
+| chevrolet            | 2g11z5saxk9120208 | 2019  | charcoal             | charcoal             | 15500      | 29922,000000 |
+| ford                 | 1fm5k7d84hgc31359 | 2017  | white                | white                | 7000       | 29882,000000 |
+| chevrolet            | 2gnaxkev6k6186886 | 2019  | silver               | silver               | 16500      | 29841,000000 |
+| dodge                | 2c4rdgeg6kr623139 | 2019  | black                | black                | 15800      | 29567,000000 |
+| bmw                  | 5ymkt6c37h0x20696 | 2017  | blue                 | blue                 | 53500      | 29355,000000 |
+| jeep                 | 3c4njddb0kt686052 | 2019  | gray                 | gray                 | 18000      | 29245,000000 |
+| ford                 | 1fm5k7d8xhga68751 | 2017  | gray                 | gray                 | 6980       | 29168,000000 |
+| dodge                | 2c4rdgeg0jr327368 | 2018  | white                | white                | 14700      | 29115,000000 |
+| dodge                | 3c4pddgg3kt720539 | 2019  | black                | black                | 15900      | 29105,000000 |
+| dodge                | 1c4sdhct3kc769532 | 2019  | gray                 | gray                 | 30000      | 29086,000000 |
+| nissan               | 3n1ab7ap2jy244200 | 2018  | blue                 | blue                 | 3550       | 29043,000000 |
+| dodge                | 2c3cdxhg2kh585016 | 2019  | white                | white                | 21900      | 29003,000000 |
+| dodge                | 3c4pddeg4kt738776 | 2019  | red                  | red                  | 16800      | 28981,000000 |
+| gmc                  | 1gks2gkcxhr324555 | 2017  | black                | black                | 12520      | 28972,000000 |
+| chevrolet            | 3gcukrec5gg383569 | 2016  | blue                 | blue                 | 27305      | 28844,000000 |
+| dodge                | 2c4rdgeg6kr578882 | 2019  | white                | white                | 16300      | 28782,000000 |
+| chevrolet            | 3gcuksec3hg222744 | 2017  | silver               | silver               | 34500      | 28739,000000 |
+| jeep                 | 1c4pjmbx6kd298174 | 2019  | silver               | silver               | 21100      | 28649,000000 |
+| dodge                | 1c4rdjdgxkc744523 | 2019  | gray                 | gray                 | 26500      | 28551,000000 |
+| dodge                | 3c4pdcgg9jt352215 | 2018  | red                  | red                  | 13800      | 28469,000000 |
+| ford                 | 1ftew1ep4hfb44546 | 2017  | red                  | red                  | 24811      | 28464,000000 |
+| chevrolet            | 1g1fb3dx5h0143964 | 2017  | black                | black                | 18300      | 28395,000000 |
+| dodge                | 2c3cdxjg6jh224431 | 2018  | silver               | silver               | 25000      | 28307,000000 |
+| dodge                | 2c4rdgeg0kr557123 | 2019  | red                  | red                  | 16300      | 28289,000000 |
+| dodge                | 1c4sdjctxkc691872 | 2019  | white                | white                | 32400      | 28280,000000 |
+| dodge                | 2c4rdgcg1kr691027 | 2019  | white                | white                | 18000      | 28252,000000 |
+| gmc                  | 1gks2gkc2hr327918 | 2017  | silver               | silver               | 11900      | 28040,000000 |
+| chevrolet            | 2gnalcek6h6288804 | 2017  | silver               | silver               | 14200      | 28013,000000 |
+| gmc                  | 1gks2gkc2hr328793 | 2017  | black                | black                | 11900      | 27965,000000 |
+| dodge                | 2c3cdzggxkh532268 | 2019  | black                | black                | 18900      | 27957,000000 |
+| chevrolet            | 2g1ff1e3xf9185411 | 2015  | white                | white                | 17000      | 27927,000000 |
+| gmc                  | 1gks2gkc0hr323625 | 2017  | white                | white                | 13490      | 27842,000000 |
+| ford                 | 1ftfw1ef5hfb70262 | 2017  | gray                 | gray                 | 25001      | 27773,000000 |
+| dodge                | 2c4rdgeg9hr852858 | 2017  | silver               | silver               | 15500      | 27761,000000 |
+| chevrolet            | 2gcvkpec1k1124569 | 2019  | red                  | red                  | 28300      | 27665,000000 |
+| ford                 | 1ft8w3dt8hec12120 | 2017  | black                | black                | 51502      | 27661,000000 |
+| chevrolet            | 1g11z5s37ku129047 | 2019  | white                | white                | 18900      | 27601,000000 |
+| chevrolet            | 1gcvkrec0gz118434 | 2016  | white                | white                | 19700      | 27593,000000 |
+| chevrolet            | 3gncjksb6hl148082 | 2017  | black                | black                | 11600      | 27498,000000 |
+| hyundai              | km8j23a44ku882752 | 2019  | white                | white                | 4650       | 27492,000000 |
+| gmc                  | 1gkknmls5jz177336 | 2018  | black                | black                | 500        | 27442,000000 |
+| dodge                | 2c4rdgeg4kr682965 | 2019  | gray                 | gray                 | 16500      | 27327,000000 |
+| gmc                  | 2gkfltek2h6218025 | 2017  | black                | black                | 5630       | 27195,000000 |
+| dodge                | 2c3cdxjg7jh189253 | 2018  | gray                 | gray                 | 23000      | 26996,000000 |
+| dodge                | 1c4rdjdgxkc770197 | 2019  | white                | white                | 27100      | 26929,000000 |
+| dodge                | 2c3cdzag4gh309689 | 2016  | blue                 | blue                 | 15000      | 26922,000000 |
+| ford                 | 1fafp36n06w137851 | 2006  | no_color             | no_color             | 720        | 26914,000000 |
+| ford                 | 1ftew1cg4ffa66589 | 2015  | silver               | silver               | 9210       | 26911,000000 |
+| chevrolet            | 2g11z5sa5k9140950 | 2019  | silver               | silver               | 15700      | 26848,000000 |
+| infiniti             | jn8az2ne9k9229368 | 2019  | white                | white                | 15050      | 26786,000000 |
+| cadillac             | 3gyfnae36gs538333 | 2016  | gray                 | gray                 | 18402      | 26667,000000 |
+| cadillac             | 1gys4ckj7hr359884 | 2017  | black                | black                | 47500      | 26562,000000 |
+| dodge                | 1c4sdjct5kc744865 | 2019  | red                  | red                  | 31700      | 26549,000000 |
+| dodge                | 1c4sdjct0kc744790 | 2019  | black                | black                | 30700      | 26503,000000 |
+| chevrolet            | 2gnaldek7g6323080 | 2016  | gray                 | gray                 | 17000      | 26474,000000 |
+| dodge                | 2c3cdzag9kh617109 | 2019  | orange               | orange               | 18800      | 26474,000000 |
+| dodge                | 2c3cdzbt4kh578392 | 2019  | black                | black                | 23800      | 26443,000000 |
+| dodge                | 2c3cdzbt4kh642012 | 2019  | black                | black                | 22700      | 26428,000000 |
+| dodge                | 2c3cdzagxkh583746 | 2019  | gray                 | gray                 | 17500      | 26370,000000 |
+| gmc                  | 1gks2gkc6hr326335 | 2017  | silver               | silver               | 12710      | 26364,000000 |
+| dodge                | 1c4sdjct5kc738497 | 2019  | black                | black                | 31000      | 26353,000000 |
+| dodge                | 2c3cdzc90fh834388 | 2015  | white                | white                | 38800      | 26292,000000 |
+| ford                 | 1ft7w3bt0hef02785 | 2017  | black                | black                | 54000      | 26241,000000 |
+| dodge                | 2c3cdxhg3kh630447 | 2019  | gray                 | gray                 | 22000      | 26184,000000 |
+| dodge                | 1c4sdjct3kc632985 | 2019  | red                  | red                  | 32000      | 26090,000000 |
+| dodge                | 2c3cdxjg4jh292503 | 2018  | gray                 | gray                 | 22500      | 26026,000000 |
+| chevrolet            | 1g1rc6s56hu177143 | 2017  | no_color             | no_color             | 16600      | 26003,000000 |
+| honda                | 1hgct1b89ha002933 | 2017  | white                | white                | 6160       | 25956,000000 |
+| infiniti             | 5n1dl0mm9kc556522 | 2019  | gray                 | gray                 | 10330      | 25933,000000 |
+| hyundai              | km8j23a4xku846404 | 2019  | gray                 | gray                 | 4750       | 25847,000000 |
+| dodge                | 1c4rdjdg5kc744770 | 2019  | white                | white                | 27200      | 25815,000000 |
+| chevrolet            | 2g11z5s33k9132248 | 2019  | black                | black                | 18300      | 25809,000000 |
+| dodge                | 1c4rdhdg1kc557017 | 2019  | white                | white                | 24500      | 25780,000000 |
+| gmc                  | 1gks2gkc6hr328389 | 2017  | white                | white                | 12710      | 25747,000000 |
+| ford                 | 1ftew1cf3hfb78746 | 2017  | black                | black                | 23911      | 25698,000000 |
+| ford                 | 1fmcu0gd7huc86259 | 2017  | silver               | silver               | 4340       | 25602,000000 |
+| ford                 | 1ftfw1e40kfb69655 | 2019  | silver               | silver               | 27200      | 25508,000000 |
+| dodge                | 1c4sdjct7kc647733 | 2019  | black                | black                | 32000      | 25456,000000 |
+| buick                | 5gakvckd2hj308564 | 2017  | white                | white                | 26400      | 25434,000000 |
+| chevrolet            | 2gcvkpec4k1105269 | 2019  | black                | black                | 27300      | 25427,000000 |
+| mercedes-benz        | wddjk7ea3hf044968 | 2017  | silver               | silver               | 84900      | 25302,000000 |
+| chrysler             | 2c4rc1gg3kr730663 | 2019  | red                  | red                  | 29100      | 25281,000000 |
+| nissan               | 3n1ab7apxhy302645 | 2017  | black                | black                | 3210       | 25255,000000 |
+| chevrolet            | 3gnaxuev8ks588177 | 2019  | white                | white                | 17700      | 25223,000000 |
+| dodge                | 1c4rdhdg3kc675893 | 2019  | black                | black                | 24500      | 25032,000000 |
+| ford                 | 1ftew1e55kfb51169 | 2019  | white                | white                | 26602      | 25009,000000 |
+| chevrolet            | 1gcgtcen4h1158648 | 2017  | black                | black                | 26502      | 24993,000000 |
+| dodge                | 2c3cdybt3eh115268 | 2014  | bright white clearcoat | bright white clearcoat | 23995      | 24934,000000 |
+| ford                 | 1ftew1ep2kfb70022 | 2019  | gray                 | gray                 | 27202      | 24730,000000 |
+| dodge                | 2c4rdgdg0kr571878 | 2019  | black                | black                | 20200      | 24722,000000 |
+| chevrolet            | 1g1fh1r7xk0140397 | 2019  | gray                 | gray                 | 31100      | 24561,000000 |
+| ford                 | 1ftfw1eg1hfb38806 | 2017  | gray                 | gray                 | 32100      | 24521,000000 |
+| dodge                | 2c4rdgcgxjr282071 | 2018  | silver               | silver               | 14500      | 24336,000000 |
+| bmw                  | wba7f2c58gge12300 | 2016  | no_color             | no_color             | 29700      | 24293,000000 |
+| ford                 | 2fmhk6c89gba05297 | 2016  | gray                 | gray                 | 21000      | 24157,000000 |
+| chevrolet            | 1g1be5sm4h7275597 | 2017  | blue                 | blue                 | 9400       | 24009,000000 |
+| dodge                | 2c4rdgcgxkr751032 | 2019  | black                | black                | 17500      | 23987,000000 |
+| dodge                | 1c4rdjdg6kc701149 | 2019  | gray                 | gray                 | 27500      | 23987,000000 |
+| ford                 | 1ftew1e48kfb37905 | 2019  | white                | white                | 26902      | 23964,000000 |
+| dodge                | 2c3cdybt9eh143592 | 2014  | bright white clearcoat | bright white clearcoat | 22499      | 23964,000000 |
+| dodge                | 2c4rdgcg3kr545227 | 2019  | silver               | silver               | 18500      | 23961,000000 |
+| dodge                | 2c3cdzgg2kh594165 | 2019  | white                | white                | 21600      | 23783,000000 |
+| bmw                  | 5uxwx7c3xh0u44145 | 2017  | black                | black                | 29400      | 23765,000000 |
+| buick                | 1g4zp5ss5hu137398 | 2017  | red                  | red                  | 21500      | 23765,000000 |
+| chevrolet            | 1gcwgafg7k1222516 | 2019  | white                | white                | 21800      | 23759,000000 |
+| land                 | salcp2rx0jh740860 | 2018  | black                | black                | 23200      | 23745,000000 |
+| gmc                  | 1gks2gkc3hr326762 | 2017  | gray                 | gray                 | 13350      | 23525,000000 |
+| kia                  | kndjp3a55k7006351 | 2019  | silver               | silver               | 12700      | 23514,000000 |
+| chevrolet            | 1gnerhkw7lj115518 | 2020  | silver               | silver               | 30500      | 23470,000000 |
+| dodge                | 2c4rdgcg9kr696007 | 2019  | silver               | silver               | 16400      | 23369,000000 |
+| ford                 | 1ftew1ep1kfb50960 | 2019  | silver               | silver               | 25600      | 23294,000000 |
+| bmw                  | wba7e2c58hg739412 | 2017  | blue                 | blue                 | 39800      | 23177,000000 |
+| ford                 | 1fadp3j2xjl279400 | 2018  | white                | white                | 13800      | 23164,000000 |
+| dodge                | 1c4rdjeg3fc112029 | 2015  | red                  | red                  | 25300      | 23095,000000 |
+| dodge                | 2c3cdzgg8hh584894 | 2017  | green                | green                | 24900      | 23030,000000 |
+| chevrolet            | 3gcukrec0jg176059 | 2018  | black                | black                | 31900      | 22909,000000 |
+| ford                 | 3fadp4bj7km123231 | 2019  | gray                 | gray                 | 10300      | 22881,000000 |
+| ford                 | 2fmhk6d80kba19788 | 2019  | silver               | silver               | 24205      | 22805,000000 |
+| dodge                | 2c3cdzag1jh288453 | 2018  | white                | white                | 19100      | 22646,000000 |
+| dodge                | 2c4rdgbgxkr624069 | 2019  | black                | black                | 16200      | 22591,000000 |
+| jeep                 | 1c4rjebg1kc776053 | 2019  | silver               | silver               | 8610       | 22123,000000 |
+| bmw                  | wbaja7c31hg905802 | 2017  | blue                 | blue                 | 33500      | 22115,000000 |
+| dodge                | 3c4pdcgg0kt783155 | 2019  | orange               | orange               | 16700      | 22074,000000 |
+| chevrolet            | 1g1zd5st0kf187281 | 2019  | black                | black                | 15900      | 22026,000000 |
+| ford                 | 1ftew1e59kfb37887 | 2019  | black                | black                | 25811      | 21774,000000 |
+| ford                 | 1ftew1ep8hfa10123 | 2017  | black                | black                | 9200       | 21770,000000 |
+| ford                 | 1ftew1e49kfb96784 | 2019  | white                | white                | 27102      | 21766,000000 |
+| ford                 | 1ft8w3bt3kee15023 | 2019  | blue                 | blue                 | 58500      | 21527,000000 |
+| ford                 | 1fadp3k23jl219764 | 2018  | white                | white                | 8700       | 21405,000000 |
+| dodge                | 2c3cdxbg5hh642083 | 2017  | black                | black                | 13900      | 21304,000000 |
+| infiniti             | 5n1dl0mm9kc550722 | 2019  | blue                 | blue                 | 10330      | 21278,000000 |
+| chevrolet            | 3gcuksec0hg271643 | 2017  | no_color             | no_color             | 35500      | 21268,000000 |
+| dodge                | 3c4pddgg5kt779690 | 2019  | gray                 | gray                 | 16700      | 21203,000000 |
+| ford                 | 1ftew1e59kfb69755 | 2019  | white                | white                | 26602      | 21201,000000 |
+| ford                 | 1ftfw1e51kfb70029 | 2019  | silver               | silver               | 29809      | 21157,000000 |
+| ford                 | 1ftex1ep1gfd60365 | 2016  | gray                 | gray                 | 7410       | 21034,000000 |
+| dodge                | 3c4pdcgg4kt815525 | 2019  | white                | white                | 15400      | 20944,000000 |
+| chrysler             | 2c3ccakg8jh168457 | 2018  | gray                 | gray                 | 6440       | 20942,000000 |
+| jaguar               | sajbd4fx6kcy78964 | 2019  | black                | black                | 2800       | 20849,000000 |
+| chevrolet            | 3gcukrec6hg356561 | 2017  | white                | white                | 25000      | 20847,000000 |
+| chevrolet            | 1gcvkrec1hz135955 | 2017  | white                | white                | 27700      | 20784,000000 |
+| infiniti             | 5n1dl0mm2kc556913 | 2019  | white                | white                | 10120      | 20681,000000 |
+| chevrolet            | 1gcuyged0kz114660 | 2019  | black                | black                | 38600      | 20681,000000 |
+| dodge                | 2c3cdxjg1jh292507 | 2018  | silver               | silver               | 22500      | 20575,000000 |
+| ford                 | 1ftew1e47kfb69647 | 2019  | red                  | red                  | 27702      | 20343,000000 |
+| dodge                | 1c4sdhctxhc936557 | 2017  | no_color             | no_color             | 30700      | 20328,000000 |
+| dodge                | 2c4rdgeg8kr690731 | 2019  | red                  | red                  | 18700      | 20279,000000 |
+| chevrolet            | 3gcuknec9gg224336 | 2016  | silver               | silver               | 21500      | 20270,000000 |
+| ford                 | 1ftew1e59kfb37727 | 2019  | white                | white                | 27402      | 20154,000000 |
+| land                 | salcp2rx6jh739311 | 2018  | black                | black                | 23000      | 20103,000000 |
+| dodge                | 1c4rdjdg9kc722562 | 2019  | silver               | silver               | 29600      | 20034,000000 |
+| ford                 | 1ftew1e54kfa00453 | 2019  | white                | white                | 27102      | 20014,000000 |
+| buick                | kl4cj1sb6jb688844 | 2018  | red                  | red                  | 16500      | 20002,000000 |
+| ford                 | 3fadp4bj4km123235 | 2019  | silver               | silver               | 10300      | 19956,000000 |
+| ford                 | 1ftew1ef2hfb83224 | 2017  | black                | black                | 26012      | 19850,000000 |
+| chevrolet            | 1gc1kveg3hf189737 | 2017  | silver               | silver               | 31802      | 19845,000000 |
+| dodge                | 1c4sdjet3kc625404 | 2019  | black                | black                | 34000      | 19695,000000 |
+| chevrolet            | kl7cjrsb9gb542870 | 2016  | white                | white                | 17100      | 19659,000000 |
+| buick                | kl4cjbsb4gb700424 | 2016  | red                  | red                  | 13500      | 19655,000000 |
+| dodge                | 2c3cdxhg6kh598321 | 2019  | black                | black                | 19000      | 19636,000000 |
+| dodge                | 2c3cdxct8jh197730 | 2018  | blue                 | blue                 | 28700      | 19636,000000 |
+| dodge                | 2c3cdzag1kh656275 | 2019  | black                | black                | 20300      | 19506,000000 |
+| gmc                  | 1gkknxls2hz262405 | 2017  | gray                 | gray                 | 9270       | 19490,000000 |
+| mercedes-benz        | 4jgda5gb4kb204919 | 2019  | white                | white                | 40000      | 19427,000000 |
+| dodge                | 1c4sdjct1jc174166 | 2018  | white                | white                | 10780      | 19420,000000 |
+| chevrolet            | 1g1yt2d6xg5612796 | 2016  | white                | white                | 62000      | 19403,000000 |
+| dodge                | 1c4rdhdg4kc769457 | 2019  | no_color             | no_color             | 28800      | 19235,000000 |
+| dodge                | 3c4pdcab2jt216649 | 2018  | gray                 | gray                 | 14300      | 19164,000000 |
+| chevrolet            | 1g1zh5sx7hf141060 | 2017  | no_color             | no_color             | 18003      | 19117,000000 |
+| ford                 | 1ftew1e53kfb37982 | 2019  | white                | white                | 27102      | 19100,000000 |
+| cadillac             | 1gyknbrs8hz257399 | 2017  | no_color             | no_color             | 25201      | 19011,000000 |
+| ford                 | 2fmhk6dt2kba19683 | 2019  | black                | black                | 27302      | 18969,000000 |
+| ford                 | 3fadp4bjxkm123238 | 2019  | black                | black                | 10300      | 18937,000000 |
+| ford                 | 1ftew1e50kfb51192 | 2019  | silver               | silver               | 28500      | 18901,000000 |
+| ford                 | 1ftfw1e58kfb69878 | 2019  | black                | black                | 29900      | 18759,000000 |
+| chevrolet            | 1g1105s31lu100901 | 2020  | silver               | silver               | 25000      | 18715,000000 |
+| ford                 | 1ftmf1ef2hfb83980 | 2017  | black                | black                | 25503      | 18647,000000 |
+| ford                 | 1ftew1e59kfb37761 | 2019  | red                  | red                  | 27202      | 18550,000000 |
+| chevrolet            | 1g1zh5sx9hf118136 | 2017  | white                | white                | 19000      | 18414,000000 |
+| chrysler             | 2c4rc1eg2hr669530 | 2017  | gray                 | gray                 | 26500      | 18375,000000 |
+| dodge                | 2c3cdzag9kh642088 | 2019  | gray                 | gray                 | 20700      | 18313,000000 |
+| dodge                | 3c4pddgg9kt805269 | 2019  | blue                 | blue                 | 18200      | 18291,000000 |
+| dodge                | 2c4rdgcg1kr761805 | 2019  | white                | white                | 17500      | 18271,000000 |
+| infiniti             | 5n1dl0mm3kc557634 | 2019  | gray                 | gray                 | 10050      | 18229,000000 |
+| chevrolet            | 3gncjlsb4ll149763 | 2020  | white                | white                | 16300      | 18221,000000 |
+| ford                 | 2fmhk6dt9kba19695 | 2019  | red                  | red                  | 26511      | 18196,000000 |
+| ford                 | 1ftew1e42kfb37902 | 2019  | white                | white                | 26602      | 18174,000000 |
+| dodge                | 3c4pdcab0jt444388 | 2018  | white                | white                | 11800      | 18138,000000 |
+| dodge                | 2c4rdgcg4kr735473 | 2019  | white                | white                | 19100      | 18132,000000 |
+| dodge                | 3c4pdcgg0kt783172 | 2019  | orange               | orange               | 16700      | 18049,000000 |
+| chevrolet            | 2gnaxjev9j6276848 | 2018  | silver               | silver               | 16500      | 18020,000000 |
+| chevrolet            | 1gchtde32g1339478 | 2016  | brown                | brown                | 24503      | 18006,000000 |
+| ford                 | 1ftew1e55kfb69820 | 2019  | red                  | red                  | 27502      | 17983,000000 |
+| ford                 | 2fmhk6dt1kba21554 | 2019  | blue                 | blue                 | 26211      | 17977,000000 |
+| dodge                | 2c3cdxjg6jh182178 | 2018  | silver               | silver               | 24800      | 17946,000000 |
+| buick                | 5gakvckd5hj216221 | 2017  | green                | green                | 29000      | 17940,000000 |
+| jeep                 | 3c4njcbbxkt664931 | 2019  | green                | green                | 4400       | 17911,000000 |
+| dodge                | 1c4sdjct3kc820776 | 2019  | gray                 | gray                 | 34100      | 17909,000000 |
+| dodge                | 1c4rdjdg3kc827484 | 2019  | silver               | silver               | 28500      | 17896,000000 |
+| dodge                | 2c3cdzag6kh701727 | 2019  | black                | black                | 19300      | 17870,000000 |
+| ford                 | 1ftfw1e52kfb51151 | 2019  | white                | white                | 27402      | 17851,000000 |
+| ford                 | 1ftfw1e43kfb97031 | 2019  | silver               | silver               | 25511      | 17801,000000 |
+| ford                 | 1ftfw1e5xkfc33564 | 2019  | white                | white                | 29900      | 17684,000000 |
+| ford                 | 1ftew1e41kfb70194 | 2019  | silver               | silver               | 27705      | 17644,000000 |
+| bmw                  | wba4f9c51hg439932 | 2017  | gray                 | gray                 | 24500      | 17626,000000 |
+| ford                 | 1fmcu0gd5huc78080 | 2017  | white                | white                | 4140       | 17617,000000 |
+| ford                 | 1ftfw1e55kfb37583 | 2019  | white                | white                | 29900      | 17488,000000 |
+| dodge                | 2c4rdgcg3kr747548 | 2019  | black                | black                | 15400      | 17472,000000 |
+| dodge                | 2c3cdxl92gh285329 | 2016  | blue                 | blue                 | 52000      | 17432,000000 |
+| ford                 | 2fmhk6c88kba19846 | 2019  | gray                 | gray                 | 23402      | 17417,000000 |
+| dodge                | 3c4pdcab2ft637813 | 2015  | black                | black                | 3570       | 17355,000000 |
+| infiniti             | jn8az2nf9k9685086 | 2019  | gray                 | gray                 | 13080      | 17243,000000 |
+| dodge                | 1c4rdjdg6kc770276 | 2019  | black                | black                | 26900      | 17160,000000 |
+| ford                 | 1ftfw1e53kfc33535 | 2019  | silver               | silver               | 29900      | 17159,000000 |
+| dodge                | 2c3cdzgg1kh712965 | 2019  | black                | black                | 20300      | 17154,000000 |
+| ford                 | 2fmhk6c85kba19710 | 2019  | black                | black                | 23211      | 17025,000000 |
+| ford                 | 1fadp3m26jl307477 | 2018  | black                | black                | 13600      | 16971,000000 |
+| honda                | 1hgcr2f55ha080596 | 2017  | black                | black                | 5420       | 16702,000000 |
+| dodge                | 2c3cdzgg3kh684649 | 2019  | white                | white                | 20300      | 16679,000000 |
+| gmc                  | 2gtv2mecxk1173011 | 2019  | black                | black                | 26000      | 16669,000000 |
+| ford                 | 1ftew1e41kfb69644 | 2019  | silver               | silver               | 27705      | 16600,000000 |
+| chevrolet            | 3gncjlsb1ll142267 | 2020  | white                | white                | 15500      | 16545,000000 |
+| chevrolet            | kl7cjpsbxjb710284 | 2018  | white                | white                | 14100      | 16502,000000 |
+| ford                 | 1fatp8uh2k5188622 | 2019  | gray                 | gray                 | 7400       | 16482,000000 |
+| dodge                | 1c4rdjdg2kc780335 | 2019  | white                | white                | 26900      | 16397,000000 |
+| dodge                | 2c4rdgeg7kr743175 | 2019  | white                | white                | 16900      | 16176,000000 |
+| ford                 | 1ftew1e45kfb69856 | 2019  | gray                 | gray                 | 27502      | 16146,000000 |
+| ford                 | 2fmhk6c81kba19848 | 2019  | gray                 | gray                 | 24002      | 16106,000000 |
+| chevrolet            | 1gc4k1ey0jf149152 | 2018  | black                | black                | 53000      | 16105,000000 |
+| ford                 | 1ftew1e55kfb96628 | 2019  | gray                 | gray                 | 27002      | 16059,000000 |
+| cadillac             | 1gyknfrs3kz252626 | 2019  | black                | black                | 37500      | 16013,000000 |
+| ford                 | 1fd8w3ht1kee23298 | 2019  | white                | white                | 12560      | 15958,000000 |
+| dodge                | 2c3cdxej6ch170654 | 2012  | black                | black                | 29000      | 15927,000000 |
+| ford                 | 1fatp8uh7k5172626 | 2019  | gray                 | gray                 | 7340       | 15854,000000 |
+| ford                 | 2fmhk6dt5kba19693 | 2019  | red                  | red                  | 26311      | 15847,000000 |
+| ford                 | 3fa6p0ruxkr244131 | 2019  | black                | black                | 18111      | 15805,000000 |
+| chevrolet            | 1g1zd5st5kf112138 | 2019  | white                | white                | 17100      | 15780,000000 |
+| gmc                  | 1gtu9fel6kz311976 | 2019  | black                | black                | 48500      | 15777,000000 |
+| dodge                | 1c4sdjct2kc683796 | 2019  | white                | white                | 33000      | 15655,000000 |
+| ford                 | 1ftew1e48kfb37676 | 2019  | gray                 | gray                 | 27705      | 15630,000000 |
+| chevrolet            | 3gnaxkev2ll125886 | 2020  | black                | black                | 17300      | 15577,000000 |
+| ford                 | 1ftfw1e51kfc13333 | 2019  | white                | white                | 28214      | 15569,000000 |
+| chevrolet            | 1gcwgafg5k1221297 | 2019  | white                | white                | 22400      | 15524,000000 |
+| dodge                | 2c3cdzag2kh679841 | 2019  | black                | black                | 19300      | 15446,000000 |
+| dodge                | 2c3cdxbg8kh658222 | 2019  | black                | black                | 21500      | 15340,000000 |
+| dodge                | 1c4rdjdg0kc622141 | 2019  | black                | black                | 28500      | 15275,000000 |
+| ford                 | 1ft7w3bt5hee88155 | 2017  | black                | black                | 55000      | 15273,000000 |
+| ford                 | 1ftew1ep6kfb85302 | 2019  | gray                 | gray                 | 29314      | 15265,000000 |
+| dodge                | 3c4pddeg4ht610210 | 2017  | black                | black                | 18400      | 15027,000000 |
+| dodge                | 1c4sdjct1kc817603 | 2019  | black                | black                | 33800      | 15003,000000 |
+| chevrolet            | 2g11z5s30k9137729 | 2019  | blue                 | blue                 | 13700      | 14939,000000 |
+| buick                | 1g4zp5ss6hu125437 | 2017  | silver               | silver               | 21500      | 14907,000000 |
+| dodge                | 2c4rdgcg2kr725699 | 2019  | black                | black                | 19400      | 14906,000000 |
+| dodge                | 3c4pddeg4ht608652 | 2017  | gray                 | gray                 | 18500      | 14870,000000 |
+| gmc                  | 1gt12seg2jf255666 | 2018  | blue                 | blue                 | 32500      | 14856,000000 |
+| ford                 | 1ftfw1e58kfb37772 | 2019  | white                | white                | 28714      | 14786,000000 |
+| dodge                | 2c4rdgcg3kr765807 | 2019  | white                | white                | 18200      | 14753,000000 |
+| chevrolet            | 3gcukrec2jg216609 | 2018  | blue                 | blue                 | 35100      | 14751,000000 |
+| dodge                | 3c4pdcbb1jt319818 | 2018  | black                | black                | 14000      | 14750,000000 |
+| lincoln              | 2lmpj6l91kbl31468 | 2019  | black                | black                | 36300      | 14541,000000 |
+| ford                 | 2fmhk6dt2kba21630 | 2019  | black                | black                | 27111      | 14382,000000 |
+| dodge                | 2c4rdgcg5kr749382 | 2019  | black                | black                | 18200      | 14359,000000 |
+| dodge                | 1c4rdjdg7kc780041 | 2019  | gray                 | gray                 | 28400      | 14355,000000 |
+| jeep                 | 1c4hjxeg1kw608401 | 2019  | orange               | orange               | 10900      | 14195,000000 |
+| chevrolet            | 1gcgtcen9h1202076 | 2017  | gray                 | gray                 | 24802      | 14158,000000 |
+| dodge                | 2c4rdgcgxkr753573 | 2019  | red                  | red                  | 18200      | 14098,000000 |
+| ford                 | 1ftfw1eg1hke28907 | 2017  | red                  | red                  | 29502      | 14053,000000 |
+| dodge                | 3c4pdcgg2kt803633 | 2019  | blue                 | blue                 | 17200      | 13944,000000 |
+| chevrolet            | 1gcgtcen7l1101496 | 2020  | silver               | silver               | 28300      | 13886,000000 |
+| chevrolet            | 1gnscbkc6lr159535 | 2020  | white                | white                | 45500      | 13885,000000 |
+| chevrolet            | 1g1fb1rx6l0109117 | 2020  | green                | green                | 22500      | 13826,000000 |
+| chevrolet            | 1gnscbkcxlr162857 | 2020  | gray                 | gray                 | 45500      | 13679,000000 |
+| dodge                | 2c3cdzbt8hh655998 | 2017  | gray                 | gray                 | 27800      | 13627,000000 |
+| chevrolet            | 2gnaxkev1k6296972 | 2019  | white                | white                | 15500      | 13532,000000 |
+| dodge                | 2c3cdzgg0kh702489 | 2019  | gray                 | gray                 | 20500      | 13520,000000 |
+| chevrolet            | 1gcwgafgxk1242467 | 2019  | white                | white                | 22600      | 13485,000000 |
+| dodge                | 2c3cdzag2kh656320 | 2019  | gray                 | gray                 | 19500      | 13457,000000 |
+| chevrolet            | 1gnscbkc4lr164829 | 2020  | white                | white                | 45500      | 13303,000000 |
+| jeep                 | 1c4hjxeg1kw609998 | 2019  | red                  | red                  | 10900      | 13273,000000 |
+| dodge                | 2c3cdybt5eh217218 | 2014  | toreador red         | toreador red         | 25000      | 13239,000000 |
+| dodge                | 2c3cdzfj8gh351982 | 2016  | red                  | red                  | 36000      | 13162,000000 |
+| jeep                 | 1c4hjxeg7kw590115 | 2019  | gray                 | gray                 | 11200      | 12905,000000 |
+| chevrolet            | 2gnalcek7h1548351 | 2017  | silver               | silver               | 14900      | 12783,000000 |
+| chevrolet            | 1gb3gtcgxh1118909 | 2017  | white                | white                | 28000      | 12780,000000 |
+| ford                 | 3fa6p0ru0kr211641 | 2019  | gray                 | gray                 | 18511      | 12735,000000 |
+| dodge                | 3c4pdcgg0kt809995 | 2019  | gray                 | gray                 | 17500      | 12690,000000 |
+| buick                | 5gaevbkw8kj293388 | 2019  | gray                 | gray                 | 37500      | 12406,000000 |
+| dodge                | 2c3cdxjgxjh222262 | 2018  | silver               | silver               | 23100      | 12265,000000 |
+| jeep                 | 1c4hjxeg8kw651309 | 2019  | red                  | red                  | 10910      | 12253,000000 |
+| dodge                | 2c4rdgeg1kr664259 | 2019  | red                  | red                  | 19000      | 12123,000000 |
+| jeep                 | 1c4hjxeg2kw600727 | 2019  | black                | black                | 11380      | 12038,000000 |
+| ford                 | 2fmhk6dt7kba19548 | 2019  | white                | white                | 27511      | 11836,000000 |
+| chevrolet            | 1gchsbea7k1232845 | 2019  | white                | white                | 14000      | 11564,000000 |
+| kia                  | 5xypg4a59lg616029 | 2020  | blue                 | blue                 | 21500      | 11451,000000 |
+| jeep                 | 1c4hjxegxkw600703 | 2019  | yellow               | yellow               | 11100      | 11449,000000 |
+| infiniti             | jn8az2nexk9236037 | 2019  | white                | white                | 14750      | 11396,000000 |
+| infiniti             | jn8az2ne8k9236456 | 2019  | beige                | beige                | 15010      | 11394,000000 |
+| dodge                | 3c4pddgg6ht556180 | 2017  | green                | green                | 20000      | 11346,000000 |
+| ford                 | 1fatp8uh4k5177265 | 2019  | gray                 | gray                 | 25511      | 11342,000000 |
+| dodge                | 2c3cdzgg5kh709017 | 2019  | green                | green                | 22000      | 11280,000000 |
+| jeep                 | 1c4hjxegxkw589301 | 2019  | white                | white                | 11100      | 11229,000000 |
+| dodge                | 2c3cdyag1eh311262 | 2014  | black clearcoat      | black clearcoat      | 23495      | 11204,000000 |
+| chevrolet            | 1g1fb1rx5j0103693 | 2018  | gray                 | gray                 | 26300      | 11150,000000 |
+| chevrolet            | 1gnschkc6jr269601 | 2018  | silver               | silver               | 38500      | 11135,000000 |
+| dodge                | 2c4rdgegxkr786263 | 2019  | silver               | silver               | 21900      | 11088,000000 |
+| infiniti             | jn8az2nexk9236071 | 2019  | black                | black                | 14750      | 11047,000000 |
+| dodge                | 2c3cdzl97kh518237 | 2019  | blue                 | blue                 | 67000      | 10944,000000 |
+| jeep                 | 1c4hjxeg5kw608448 | 2019  | yellow               | yellow               | 11030      | 10861,000000 |
+| dodge                | 2c3cdxbg0kh753132 | 2019  | red                  | red                  | 17000      | 10341,000000 |
+| dodge                | 2c4rdgeg2kr724727 | 2019  | blue                 | blue                 | 19500      | 10221,000000 |
+| jeep                 | 3c4njdcb3kt659526 | 2019  | black                | black                | 6530       | 10185,000000 |
+| dodge                | 2c3cdzfj8fh877821 | 2015  | no_color             | no_color             | 46000      | 10145,000000 |
+| chevrolet            | 1gcvkpec7gz283370 | 2016  | no_color             | no_color             | 25800      | 10103,000000 |
+| dodge                | 3c4pddgg1kt858578 | 2019  | white                | white                | 19000      | 9877,000000 |
+| chevrolet            | 1gcwgafgxk1243764 | 2019  | white                | white                | 22600      | 9706,000000 |
+| ford                 | 2fmhk6dt1kba21571 | 2019  | black                | black                | 27411      | 9660,000000 |
+| harley-davidson      | 1hd1krm1xgb609213 | 2016  | black                | black                | 54680      | 9502,000000 |
+| dodge                | 2c4rdgcg3kr753690 | 2019  | white                | white                | 18000      | 9476,000000 |
+| dodge                | 2c4rdgcgxkr747353 | 2019  | gray                 | gray                 | 17400      | 9467,000000 |
+| dodge                | 2c3cdzag4kh686869 | 2019  | gray                 | gray                 | 22100      | 9445,000000 |
+| chevrolet            | 1g1zd5st5jf191860 | 2018  | silver               | silver               | 14600      | 9371,000000 |
+| chevrolet            | 1gcwgafg3k1232427 | 2019  | white                | white                | 22500      | 9019,000000 |
+| chevrolet            | 1gcwgafg9k1240337 | 2019  | white                | white                | 22700      | 8996,000000 |
+| dodge                | 3c4pddgg8kt858576 | 2019  | black                | black                | 19000      | 8949,000000 |
+| jeep                 | 1c4hjxeg0kw596497 | 2019  | red                  | red                  | 11000      | 8930,000000 |
+| dodge                | 2c4rdgeg8kr695119 | 2019  | black                | black                | 19500      | 8767,000000 |
+| chevrolet            | 1gcuwded5kz124282 | 2019  | silver               | silver               | 35300      | 8516,000000 |
+| jeep                 | 1c4hjxeg7kw589272 | 2019  | yellow               | yellow               | 11200      | 8395,000000 |
+| lexus                | jtjam7bx4l5251250 | 2020  | silver               | silver               | 55600      | 8186,000000 |
+| chevrolet            | 1gcwgafg5k1229335 | 2019  | white                | white                | 22500      | 8150,000000 |
+| chevrolet            | 1gnevhkw9kj129253 | 2019  | white                | white                | 34000      | 8067,000000 |
+| chevrolet            | 1g1jf5sb0k4122201 | 2019  | black                | black                | 10200      | 7654,000000 |
+| chevrolet            | 2gnaxhev8k6108774 | 2019  | gold                 | gold                 | 16500      | 7622,000000 |
+| dodge                | 2c3cdybt6eh111229 | 2014  | billet silver metallic clearcoat | billet silver metallic clearcoat | 25250      | 7608,000000 |
+| bmw                  | wba7t2c04lgl17687 | 2020  | black                | black                | 61200      | 7509,000000 |
+| dodge                | 2c3cdzc98hh553913 | 2017  | no_color             | no_color             | 53000      | 7415,000000 |
+| dodge                | 2c3cdzc99fh713682 | 2015  | white                | white                | 43400      | 7250,000000 |
+| chevrolet            | 2gnaxkev6l6128374 | 2020  | black                | black                | 25         | 7232,000000 |
+| dodge                | 2c3cdzag8jh321934 | 2018  | gray                 | gray                 | 21500      | 6748,000000 |
+| dodge                | 3c4pdcab8jt384019 | 2018  | gray                 | gray                 | 4160       | 6743,000000 |
+| chevrolet            | 3gcpcrec2jg473991 | 2018  | red                  | red                  | 27700      | 6654,000000 |
+| dodge                | 2c3cdzbt8kh705158 | 2019  | gray                 | gray                 | 21800      | 6530,000000 |
+| chevrolet            | 1gcwgafg1k1229638 | 2019  | white                | white                | 22600      | 6159,000000 |
+| chevrolet            | 1gcwgafg4k1252945 | 2019  | white                | white                | 22700      | 6075,000000 |
+| chevrolet            | 1gcwgafg2k1222357 | 2019  | white                | white                | 22600      | 5938,000000 |
+| dodge                | 3c4pddbg3kt708835 | 2019  | gray                 | gray                 | 26900      | 5775,000000 |
+| chevrolet            | 3gcpwaef0kg291601 | 2019  | no_color             | no_color             | 35000      | 5523,000000 |
+| dodge                | 2c3cdxbgxjh273288 | 2018  | blue                 | blue                 | 23300      | 5359,000000 |
+| dodge                | 2c3cdzag6kh668955 | 2019  | gray                 | gray                 | 22500      | 5000,000000 |
+| dodge                | 2c3cdxbgxkh707467 | 2019  | gray                 | gray                 | 21232      | 4950,000000 |
+| chevrolet            | 1g1yj2d70g5122320 | 2016  | black                | black                | 46000      | 4445,000000 |
+| chevrolet            | 1g1ys2d6xg5609979 | 2016  | red                  | red                  | 63200      | 4266,000000 |
+| dodge                | 2c3cdzc95fh757310 | 2015  | white                | white                | 39800      | 3641,000000 |
+| chrysler             | 2c4rc1fg5lr143335 | 2020  | white                | white                | 23000      | 2473,000000 |
+| chevrolet            | 1gcncneh5jz302471 | 2018  | white                | white                | 19200      | 2430,000000 |
+| dodge                | 2c4rdgcg0kr798456 | 2019  | gray                 | gray                 | 19500      | 1091,000000 |
+| chevrolet            | 3gncjksbxll181398 | 2020  | gray                 | gray                 | 22000      | 179,000000 |
+| heartland            | 5sfpb3326je365727 | 2018  | gray                 | gray                 | 4050       | 1,000000   |
+| heartland            | 5sfnb2425ce237109 | 2012  | white                | white                | 1880       | 1,000000   |
+| heartland            | 5sfbg3524be216811 | 2011  | gray                 | gray                 | 6680       | 1,000000   |
+| heartland            | 5sfgf29269e031344 | 2009  | white                | white                | 0          | 1,000000   |
+| heartland            | 5sfbg3823ae204868 | 2010  | white                | white                | 2220       | 1,000000   |
+| chevrolet            | 3gnek12t74g240524 | 2004  | maroon               | maroon               | 0          | 0,000000   |
+| ford                 | 1fdee14n7rha47894 | 1994  | green                | green                | 0          | 0,000000   |
+| peterbilt            | 1xp4d49x1cd144875 | 2012  | blue                 | blue                 | 100        | 0,000000   |
+| gmc                  | 1gkfk16k5pj701631 | 1993  | light blue           | light blue           | 0          | 0,000000   |

@@ -46,7 +46,7 @@ public class Mark {
         if(this.getClass() != other.getClass())
             return false;
         Mark otherMark = (Mark) other;
-        return this.mark == otherMark.mark;
+        return this.mark.equals(otherMark.mark);
     }
 
     public static final Comparator<Mark> MARK_COMPARATOR = new Comparator<Mark>() {

@@ -1,7 +1,6 @@
 
 import java.io.*;
 import java.util.*;
-import java.util.stream.Collectors;
 
 
 public class Main {
@@ -12,11 +11,7 @@ public class Main {
         ArrayList<Car> cars = new ArrayList<Car>();
         ArrayList<Mark> marks = new ArrayList<Mark>();
 
-        Set<String> repeat_car_number = new HashSet<String>();
-
-
-        Set<Integer> set_years = new TreeSet<Integer>();
-
+        Set<String> repeatCarNumber = new HashSet<String>();
 
         //БЛОК №1 - считывание и сохранение информации
         try{
@@ -27,7 +22,7 @@ public class Main {
                 int year = 0;
                 int id = 0;
                 double miles = 0;
-                String color = "", quality = "", idNum = "", mark = "", model = "", id_party = "";
+                String color = "", quality = "", idNum = "", mark = "", model = "", idParty = "";
                 //Читаем индекс авто
                 if(sc.hasNextInt())
                     id = Integer.parseInt(sc.nextLine());
@@ -58,9 +53,6 @@ public class Main {
                         year = Integer.parseInt(sc.nextLine());
                     else break;
 
-                    set_years.add(year);
-
-
                     //Читаем состояние авто
                     if(sc.hasNext())
                         quality = sc.nextLine();
@@ -76,20 +68,28 @@ public class Main {
                         color = sc.nextLine();
                         if(!colors.contains(new Color(color)))
                             colors.add(new Color(color));
-                        colors.get(colors.indexOf(new Color(color))).addMark(mark);
+                        int index = colors.indexOf(new Color(color));
+                        Color newColor = colors.get(index);
+
+                        newColor.addMark(mark);
+                        colors.set(index, newColor);
                     }
                     else break;
 
-                    Car car = new Car(mark, model, color, quality, idNum, price, miles);
+                    if(sc.hasNext())
+                        idNum = sc.nextLine();
+                    else break;
+
+                    Car car = new Car(mark, model, color, quality, idNum, price, miles, year);
                     //Если машина с таким же id уже добавлена, значит этот id повторяется и его нужно вывести
                     if(cars.contains(car))
-                        repeat_car_number.add(idNum);
+                        repeatCarNumber.add(idNum);
                     cars.add(car);
 
                 }
                 else throw new IOException();
                 //Читаем партию авто
-                if(sc.hasNext()) id_party = sc.nextLine();
+                if(sc.hasNext()) idParty = sc.nextLine();
                 else break;
             }
             sc.close();
@@ -103,20 +103,18 @@ public class Main {
 
 
             //Задание №1 - вывод повторяющихся id авто
-            if(repeat_car_number.size() == 0) {
+            if(repeatCarNumber.size() == 0) {
                 System.out.println("Повторяющиеся id автомобилей не найдены!");
                 writer.write("Повторяющиеся id автомобилей не найдены!\n");
             }else {
                 System.out.println("Список повторяющихся id среди автомобилей:");
                 writer.write("Список повторяющихся id среди автомобилей:\n");
-                for(String i : repeat_car_number){
+                for(String i : repeatCarNumber){
                     System.out.println(i);
                     writer.write(i);
                     writer.write("\n");
                 }
             }
-
-
 
 
             //Задание №2 - вывод гистограмм для каждого цвета
@@ -162,14 +160,14 @@ public class Main {
             System.out.println("\nМарки авто, отсортированные по цене:");
             writer.write("\nМарки авто, отсортированные по цене:");
             Collections.sort(marks, Mark.MARK_COMPARATOR);
-            String leftAlignFormat = "| %-15s | %-10d |%n";
+            String AlignFormat = "| %-15s | %-10d |%n";
             for (Mark m : marks) {
-                System.out.format(leftAlignFormat, m.getMark(), m.getAvg());
-                writer.write(String.format(leftAlignFormat, m.getMark(), m.getAvg()));
+                System.out.format(AlignFormat, m.getMark(), m.getAvg());
+                writer.write(String.format(AlignFormat, m.getMark(), m.getAvg()));
             }
 
             //Задание №4 - вывод марок авто с их средней ценой, макс ценой, мин ценой
-            leftAlignFormat = "| %-15s | %-15d | %-15d | %-15d |%n";
+            AlignFormat = "| %-15s | %-15d | %-15d | %-15d |%n";
             System.out.println("Таблица с марками авто и их макс ценой, мин ценой и т.д.:");
             writer.write("\n\n");
             writer.write("Таблица с марками авто и их макс ценой, мин ценой и т.д.:\n");
@@ -178,139 +176,60 @@ public class Main {
             writer.write("\n");
             System.out.format("\n");
             for (Mark m : marks) {
-                System.out.format(leftAlignFormat, m.getMark(), m.getAvg(), m.getMax_price(), m.getMin_price());
-                writer.write(String.format(leftAlignFormat, m.getMark(), m.getAvg(), m.getMax_price(), m.getMin_price()));
+                System.out.format(AlignFormat, m.getMark(), m.getAvg(), m.getMax_price(), m.getMin_price());
+                writer.write(String.format(AlignFormat, m.getMark(), m.getAvg(), m.getMax_price(), m.getMin_price()));
 
             }
 
             //Задание №5 - вывод тех авто, которые запросит пользователь
-
-            String years  = "";
-            String colors = "";
+            int years  = 2022;
+            String color = "";
             String mark = "";
-            String quantity = "";
-            int sort_choice = 0;
+            String quality = "";
+            int sortChoice = 0;
             Scanner scanner = new Scanner(System.in);
             System.out.println("Максимальный возраст авто: ");
-            years = scanner.nextLine();
+            years = scanner.nextInt();
             System.out.println("Цвета авто: ");
-            colors = scanner.nextLine();
+            color = scanner.nextLine();
             System.out.println("Марка авто: ");
             mark = scanner.nextLine();
             System.out.println("Состояние авто: ");
-            quantity = scanner.nextLine();
+            quality = scanner.nextLine();
 
             System.out.println("Выберите сортировку: \n1-По возрастанию цены\n2-По убыванию цены\n3-По возрастанию пробега\n4-По убыванию пробега");
-            sort_choice = scanner.nextInt();
+            sortChoice = scanner.nextInt();
 
-
-
-            leftAlignFormat = "| %-20s | %-4d | %-5d | %-10s | %-20s | %-10d | %-10f |%n";
-            System.out.format("| %-20s | %-4s | %-5s | %-10s | %-20s | %-10s | %-10s |%n", "Марка", "ID", "Год", "Цвет", "Состояние", "Цена", "Пробег");
-            writer.write(String.format("%n| %-20s | %-4s | %-5s | %-10s | %-20s | %-10s | %-10s |%n", "Марка", "ID", "Год", "Цвет", "Состояние", "Цена", "Пробег"));
-            if(sort_choice == 1)
+            AlignFormat = "| %-20s | %-14s | %-5d | %-20s | %-20s | %-10d | %-10f |%n";
+            System.out.format("| %-20s | %-14s | %-5s | %-20s | %-20s | %-10s | %-10s |%n", "Марка", "ID", "Год", "Цвет", "Состояние", "Цена", "Пробег");
+            writer.write(String.format("%n| %-20s | %-14s | %-5s | %-20s | %-20s | %-10s | %-10s |%n", "Марка", "ID", "Год", "Цвет", "Состояние", "Цена", "Пробег"));
+            //В зависимости от выбранной сортировки сортируем список машин в нужном порядке
+            if(sortChoice == 1)
             {
-                Map<Integer, Integer> sorted_price = id_price.entrySet().stream()
-                        .sorted(Comparator.comparingInt(e -> e.getValue()))
-                        .collect(Collectors.toMap(
-                                Map.Entry::getKey,
-                                Map.Entry::getValue,
-                                (a, b) -> { throw new AssertionError(); },
-                                LinkedHashMap::new
-                        ));
-                for(Map.Entry<Integer, Integer> entry :sorted_price.entrySet()){
-                    int key = entry.getKey();
-                    if((years == "" || 2020 - id_year.get(key) < Integer.parseInt(years)) &&
-                            (colors == "" || Arrays.stream(colors.split(" ")).toList().equals(id_color.get(key))) &&
-                            (mark == "" || mark.equals(id_mark.get(key))) &&
-                            (quantity == "" || quantity.equals(id_quality.get(key)))){
-                        System.out.format(leftAlignFormat, id_mark.get(key), key, id_year.get(key), id_color.get(key),
-                                id_quality.get(key), id_price.get(key), id_miles.get(key));
-                        writer.write(String.format(leftAlignFormat, id_mark.get(key), key, id_year.get(key), id_color.get(key),
-                                id_quality.get(key), id_price.get(key), id_miles.get(key)));
-                    }
-                }
-
+                Collections.sort(cars, Car.PRICE_COMPARATOR);
             }
-            else if(sort_choice == 2)
+            else if(sortChoice == 2)
             {
-                Map<Integer, Integer> sorted_price = id_price.entrySet().stream()
-                .sorted(Comparator.comparingInt(e -> -e.getValue()))
-                    .collect(Collectors.toMap(
-                            Map.Entry::getKey,
-                            Map.Entry::getValue,
-                            (a, b) -> { throw new AssertionError(); },
-                            LinkedHashMap::new
-                    ));
-                for(Map.Entry<Integer, Integer> entry :sorted_price.entrySet()){
-                    int key = entry.getKey();
-                    if((years == "" || 2020 - id_year.get(key) < Integer.parseInt(years)) &&
-                            (colors == "" || Arrays.stream(colors.split(" ")).toList().equals(id_color.get(key))) &&
-                            (mark == "" || mark == id_mark.get(key)) &&
-                            (quantity == "" || quantity == id_quality.get(key) )){
-                        System.out.format(leftAlignFormat, id_mark.get(key), key, id_year.get(key), id_color.get(key),
-                                id_quality.get(key), id_price.get(key), id_miles.get(key));
-                    }
-                }
-            }else if(sort_choice == 3)
+                Collections.sort(cars, Collections.reverseOrder(Car.PRICE_COMPARATOR));
+            }else if(sortChoice == 3)
             {
-                Map<Integer, Double> sorted_price = id_miles.entrySet().stream()
-                        .sorted(Comparator.comparingDouble(e -> e.getValue()))
-                        .collect(Collectors.toMap(
-                                Map.Entry::getKey,
-                                Map.Entry::getValue,
-                                (a, b) -> { throw new AssertionError(); },
-                                LinkedHashMap::new
-                        ));
-                for(Map.Entry<Integer, Double> entry :sorted_price.entrySet()){
-                    int key = entry.getKey();
-                    if((years == "" || 2020 - id_year.get(key) < Integer.parseInt(years)) &&
-                            (colors == "" || Arrays.stream(colors.split(" ")).toList().equals(id_color.get(key))) &&
-                            (mark == "" || mark == id_mark.get(key)) &&
-                            (quantity == "" || quantity == id_quality.get(key) )){
-                        System.out.format(leftAlignFormat, id_mark.get(key), key, id_year.get(key), id_color.get(key),
-                                id_quality.get(key), id_price.get(key), id_miles.get(key));
-                    }
-                }
-            }else if(sort_choice == 4)
+                Collections.sort(cars, Car.MILEAGE_COMPARATOR);
+            }else if(sortChoice == 4)
             {
-                Map<Integer, Double> sorted_price = id_miles.entrySet().stream()
-                        .sorted(Comparator.comparingDouble(e -> -e.getValue()))
-                        .collect(Collectors.toMap(
-                                Map.Entry::getKey,
-                                Map.Entry::getValue,
-                                (a, b) -> { throw new AssertionError(); },
-                                LinkedHashMap::new
-                        ));
-                for(Map.Entry<Integer, Double> entry :sorted_price.entrySet()){
-                    int key = entry.getKey();
-                    if((years == "" || 2020 - id_year.get(key) < Integer.parseInt(years)) &&
-                            (colors == "" || Arrays.stream(colors.split(" ")).toList().equals(id_color.get(key))) &&
-                            (mark == "" || mark == id_mark.get(key)) &&
-                            (quantity == "" || quantity == id_quality.get(key) )){
-                        System.out.format(leftAlignFormat, id_mark.get(key), key, id_year.get(key), id_color.get(key),
-                                id_quality.get(key), id_price.get(key), id_miles.get(key));
-                    }
+                Collections.sort(cars, Collections.reverseOrder(Car.MILEAGE_COMPARATOR));
+            }
+            //Выводим все машины, которые удовлетворяют условиям
+            for(Car car : cars){
+                if((years == 2022 || 2022 - car.getYear() < years) &&
+                        (color == "" || Arrays.stream(color.split(" ")).toList().equals(car.getColor()) &&
+                                (mark == "" || mark.equals(car.getMark())) &&
+                                (quality == "" || quality.equals(car.getQuality())))){
+                    System.out.format(AlignFormat, car.getMark(), car.getIdNum(), car.getYear(), car.getColor(),
+                            car.getQuality(), car.getCost(), car.getMileage());
+                    writer.write(String.format(AlignFormat, car.getMark(), car.getIdNum(), car.getYear(), car.getColor(),
+                            car.getColor(), car.getCost(), car.getMileage()));
                 }
             }
-
-
-//            String leftAlignFormat = "| %-4d | %-10d | %-10d | %-10d | %-10s | %-10d | %-10d | %-10f |%n";
-//            System.out.format("+------+------------+------------+------------+------------+------------+------------+------------+%n");
-//            System.out.format("| Year | Avg. price | min price  | min. price | max. color | clean veh. |salvage ins.|    km.     |%n");
-//            System.out.format("+------+------------+------------+------------+------------+------------+------------+------------+%n");
-//            writer.write("+------+------------+------------+------------+------------+------------+------------+------------+\n");
-//            writer.write("| Year | Avg. price | min price  | min. price | max. color | clean veh. |salvage ins.|    km.     |\n");
-//            writer.write("+------+------------+------------+------------+------------+------------+------------+------------+\n");
-
-//            for (Integer year : set_years) {
-//                Map<String, Integer> allColorsYear = color_result.get(year);
-//                String color = Collections.max(allColorsYear.entrySet(), (entry1, entry2) -> entry1.getValue() - entry2.getValue()).getKey();
-//                System.out.format(leftAlignFormat, year, sum_price.get(year) / counter_car.get(year), min_price.get(year), max_price.get(year),
-//                        color, clean_vehicle.get(year), salvage_insurance.get(year), miles_car.get(year) / counter_car.get(year) * 1.61);
-//                writer.write(String.format(leftAlignFormat, year, sum_price.get(year) / counter_car.get(year), min_price.get(year), max_price.get(year),
-//                        color, clean_vehicle.get(year), salvage_insurance.get(year), miles_car.get(year) / counter_car.get(year) * 1.61));
-//            }
 
             writer.flush();
         }catch (IOException e) {

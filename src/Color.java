@@ -28,11 +28,10 @@ public class Color {
 
     @Override
     public boolean equals(Object obj) {
-        if(!super.equals(obj)) return false;
         if (this == obj) return true;
         if (obj == null) return false;
         if(this.getClass() != obj.getClass()) return false;
         Color otherObj = (Color)obj;
-        return this.color_name == otherObj.color_name;
+        return this.color_name.equals(otherObj.color_name);
     }
 }
