@@ -2,8 +2,19 @@ import java.util.Comparator;
 
 public class Mark {
     String mark;
-    int count, sum, avg;
+    int count;
+    int sum;
+    int avg;
+    int max_price;
+    int min_price;
 
+    public int getMax_price() {
+        return max_price;
+    }
+
+    public int getMin_price() {
+        return min_price;
+    }
 
     public String getMark() {
         return mark;
@@ -15,15 +26,16 @@ public class Mark {
 
     Mark(String mark, int cost){
         this.mark = mark;
-        sum = cost;
         count = 1;
-        avg = cost;
+        sum = max_price = min_price = avg = cost;
     }
 
     void addOne(int cost){
         count++;
         sum += cost;
         avg = cost / sum;
+        if(cost > max_price) max_price = cost;
+        if(cost < min_price) min_price = cost;
     }
 
     @Override

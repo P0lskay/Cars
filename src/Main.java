@@ -168,7 +168,7 @@ public class Main {
                 writer.write(String.format(leftAlignFormat, m.getMark(), m.getAvg()));
             }
 
-
+            //Задание №4 - вывод марок авто с их средней ценой, макс ценой, мин ценой
             leftAlignFormat = "| %-15s | %-15d | %-15d | %-15d |%n";
             System.out.println("Таблица с марками авто и их макс ценой, мин ценой и т.д.:");
             writer.write("\n\n");
@@ -177,11 +177,13 @@ public class Main {
             writer.write(String.format("| %-15s | %-15s | %-15s | %-15s |","Марка", "Средння цена", "Максимальная", "Минимальная"));
             writer.write("\n");
             System.out.format("\n");
-            for (Map.Entry<String, Integer> entry : sorted_avg_price_mark.entrySet()) {
-                System.out.format(leftAlignFormat, entry.getKey(), entry.getValue(), max_price_mark.get(entry.getKey()), min_price_mark.get(entry.getKey()));
-                writer.write(String.format(leftAlignFormat, entry.getKey(), entry.getValue(), max_price_mark.get(entry.getKey()), min_price_mark.get(entry.getKey())));
+            for (Mark m : marks) {
+                System.out.format(leftAlignFormat, m.getMark(), m.getAvg(), m.getMax_price(), m.getMin_price());
+                writer.write(String.format(leftAlignFormat, m.getMark(), m.getAvg(), m.getMax_price(), m.getMin_price()));
 
             }
+
+            //Задание №5 - вывод тех авто, которые запросит пользователь
 
             String years  = "";
             String colors = "";
@@ -270,7 +272,7 @@ public class Main {
                                 id_quality.get(key), id_price.get(key), id_miles.get(key));
                     }
                 }
-            }else if(sort_choice == 2)
+            }else if(sort_choice == 4)
             {
                 Map<Integer, Double> sorted_price = id_miles.entrySet().stream()
                         .sorted(Comparator.comparingDouble(e -> -e.getValue()))
